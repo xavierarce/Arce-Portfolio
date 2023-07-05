@@ -1,0 +1,5 @@
+#projects {
+  display: flex; /* This sets the container to use flexbox */
+  flex-wrap: wrap; /* Allows flex items to wrap to a new line if necessary */
+  justify-content: center; /* Distributes flex items with equal space between them */
+}

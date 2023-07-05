@@ -1,0 +1,27 @@
+#hero {
+    min-height: 100vh;
+    height: 100vh;
+    color: #272341;
+    z-index: -1;
+    background: #fff;
+    border-bottom: 0;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0 5.6rem;
+    font-weight: 400;
+    display: flex;
+    inset: 0;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+#hero {
+    justify-content: flex-start;
+    text-align: center;
+}
+}
+  
+
+
+
