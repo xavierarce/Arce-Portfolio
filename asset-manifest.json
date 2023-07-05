@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.e97b219a.css",
-    "main.js": "/Arce-Portfolio/static/js/main.53a4a35e.js",
+    "main.css": "/Arce-Portfolio/static/css/main.8529dea1.css",
+    "main.js": "/Arce-Portfolio/static/js/main.bad05da1.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/SmartBrain.png": "/Arce-Portfolio/static/media/SmartBrain.b685f93d223e0cbf55d0.png",
     "static/media/profile.png": "/Arce-Portfolio/static/media/profile.741fc4a64cedbc339a29.png",
@@ -9,12 +9,12 @@
     "static/media/ResumeEspanol.pdf": "/Arce-Portfolio/static/media/ResumeEspanol.ea0877b33b3eaf12d9f6.pdf",
     "static/media/RoboFriends.png": "/Arce-Portfolio/static/media/RoboFriends.c7344d265f5f0cba0cf1.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.e97b219a.css.map": "/Arce-Portfolio/static/css/main.e97b219a.css.map",
-    "main.53a4a35e.js.map": "/Arce-Portfolio/static/js/main.53a4a35e.js.map",
+    "main.8529dea1.css.map": "/Arce-Portfolio/static/css/main.8529dea1.css.map",
+    "main.bad05da1.js.map": "/Arce-Portfolio/static/js/main.bad05da1.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e97b219a.css",
-    "static/js/main.53a4a35e.js"
+    "static/css/main.8529dea1.css",
+    "static/js/main.bad05da1.js"
   ]
 }
