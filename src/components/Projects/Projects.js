@@ -5,6 +5,14 @@ import LinearGradient from './LinearGradient.png';
 import SmartBrain from './SmartBrain.png';
 import Ecommerce from './ECommerce.png';
 import Tilt from 'react-parallax-tilt';
+import Reactt from './ICONS/React.png'
+import Firebase from './ICONS/Firebase.png'
+import GraphQLg from './ICONS/GraphQL_Logo.png'
+import TypeScript from './ICONS/Typescript.png'
+import JS from './ICONS/JS.png'
+import MySQL from './ICONS/MySQL.png'
+import Node from './ICONS/Node.js.png'
+import CSS3 from './ICONS/CSS3.png'
 
 
 const Projects = () => {
@@ -28,9 +36,42 @@ const Projects = () => {
                   <br/>
                   Progressive Web App (PWA) et tests.
                   <br/>
-                    
                   </p>
                   <br/>
+                </div>
+                <div className="skills" style={ {marginBottom:40}} >
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={Reactt}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={Firebase}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={GraphQLg}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={TypeScript}
+                          height={50}
+                        />
+                      </Tilt>
                 </div>
                 <a
                   rel="noreferrer"
@@ -84,6 +125,40 @@ const Projects = () => {
                   </p>
                   <br/>
                 </div>
+                <div className="skills" style={ {marginBottom:40}} >
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={JS}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={Reactt}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={MySQL}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={Node}
+                          height={50}
+                        />
+                      </Tilt>
+                </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -97,6 +172,7 @@ const Projects = () => {
                 >
                   See Live
                 </a>
+                
               </div>
             </div>
             <div className="w-100 w-60-ns pl3-ns order-2">
@@ -139,7 +215,24 @@ const Projects = () => {
                   </p>
                 </div>
                 <br/>
-
+                <div className="skills" style={ {marginBottom:40}} >
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={JS}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={Reactt}
+                          height={50}
+                        />
+                      </Tilt>
+                </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -201,6 +294,24 @@ const Projects = () => {
                   </p>
                 </div>
                 <br/>
+                <div className="skills" style={ {marginBottom:40}} >
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={JS}
+                          height={50}
+                        />
+                      </Tilt>
+                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img
+                          alt="Project-img"
+                          className=""
+                          src={CSS3}
+                          height={50}
+                        />
+                      </Tilt>
+                </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
