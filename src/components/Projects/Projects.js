@@ -3,6 +3,7 @@ import './Project.css';
 import RoboFriends from './RoboFriends.png';
 import LinearGradient from './LinearGradient.png';
 import SmartBrain from './SmartBrain.png';
+import Ecommerce from './ECommerce.png';
 import Tilt from 'react-parallax-tilt';
 
 
@@ -12,7 +13,56 @@ const Projects = () => {
       <div className="container centrado">
         <div className="project-wrapper">
           <h2 className=" section-title ma4" style={{color:'#272341'}}>Projects</h2>
-         
+
+          {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
+
+          <div className="row ma4   flex justify-left items-center tl">
+            <div className="w-100 w-40-ns  h-100 pr3-ns order-1">
+              <div className="project-wrapper__text load-hidden">
+                <h3 className="pj-EC f2" style={{display:'inline-block'}}>Site E-Commerce</h3>
+                <div>
+                  <p className="mb-4 lh-copy">
+                  React, Firebase, Redux Saga, Hooks, GraphQL, TypeScript.
+                  <br/>
+                  Utilisation de Redux pour la gestion de l'état et paiements via Stripe.
+                  <br/>
+                  Progressive Web App (PWA) et tests.
+                  <br/>
+                    
+                  </p>
+                  <br/>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href=" "
+                  className="f6 link dim ba bw3 ph3 pv2 mb2 black disabled"
+                  style={{
+                    border: '2px solid black',
+                    padding: '0.8rem 1.6rem',
+                    fontWeight: 700,
+                  }}
+                >
+                  En Course*
+                </a>
+              </div>
+            </div>
+            <div className="w-100 w-60-ns pl3-ns order-2">
+              <div className="">
+                  <div>
+                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                      <img
+                        alt="Project-img"
+                        className=""
+                        src={Ecommerce}
+                      />
+                    </Tilt>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+          
           {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
 
           <div className="row ma4   flex justify-left items-center tl">
@@ -32,12 +82,12 @@ const Projects = () => {
                   Implementation of a secure authentication system to access the application.
                     
                   </p>
+                  <br/>
                 </div>
-                <h6>Still in production*</h6>
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="#projects"
+                  href="https://xavierarce.github.io/FACEDETECTOR-APP/"
                   className="f6 link dim ba bw3 ph3 pv2 mb2 black"
                   style={{
                     border: '2px solid black',
@@ -47,24 +97,11 @@ const Projects = () => {
                 >
                   See Live
                 </a>
-                {/* <a
-                  rel="noreferrer"
-                  target="_blank"
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                  href="#projects"
-                >
-                  Source Code
-                </a> */}
               </div>
             </div>
             <div className="w-100 w-60-ns pl3-ns order-2">
               <div className="">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://xavierarce.github.io/FACEDETECTOR-APP/" target="_blank">
                   <div>
                     <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
                       <img
@@ -79,7 +116,7 @@ const Projects = () => {
             </div>
           </div>
           
-         
+          
           {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
 
           <div className="row ma4   flex justify-left items-center tl">

@@ -55,6 +55,13 @@
   color: transparent;
   background-image: linear-gradient(to right, rgb(231, 95, 51), rgb(12, 155, 150));
 }
+
+.pj-EC {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(147, 249, 148), rgb(87, 0, 245));
+}
 .pj-LG {
   background-clip: text;
   -webkit-background-clip: text;
