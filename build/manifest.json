@@ -1,0 +1,25 @@
+{
+  "short_name": "Xavier Arce",
+  "name": "Xavier Arce's Portfolio",
+  "icons": [
+    {
+      "src": "MainIcon.png",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "MainIcon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "MainIcon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
