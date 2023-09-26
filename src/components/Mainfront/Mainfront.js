@@ -20,39 +20,39 @@ const Mainfront = () => {
             Crafting Digital Experiences
           </h1>
           <div className="skills" >
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={pg1}
-                          height={50}
-                        />
-                      </Tilt>
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={pg3}
-                          height={50}
-                        />
-                      </Tilt>
+              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                <img
+                  alt="Project-img"
+                  className="icons"
+                  src={pg1}
+                  height={50}
+                />
+              </Tilt>
+              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                <img
+                  alt="Project-img"
+                  className="icons"
+                  src={pg3}
+                  height={50}
+                />
+              </Tilt>
 
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={pg5}
-                          height={50}
-                        />
-                      </Tilt>
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={pg2}
-                          height={50}
-                        />
-                      </Tilt>
+              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                <img
+                  alt="Project-img"
+                  className="icons"
+                  src={pg5}
+                  height={50}
+                />
+              </Tilt>
+              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                <img
+                  alt="Project-img"
+                  className="icons"
+                  src={pg2}
+                  height={50}
+                />
+              </Tilt>
           </div>
         </div>
         <p className="f3 grow">

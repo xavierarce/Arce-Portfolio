@@ -28,6 +28,7 @@
 
 .icons{
     margin: 1%;
+    border-radius: 35%;
 }
 .icons-container {
     display: flex;

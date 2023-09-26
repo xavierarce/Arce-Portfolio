@@ -17,6 +17,15 @@ const About = () => {
                 className="img-fluid rounded shadow-lg about-img"
                 src={premioC}
               />
+                <h4 style={{border: "2px solid black",padding: "0.8rem ",fontWeight: 700, marginBottom:0}}>
+                A Proud Third Place Finish in the Hackathon Challenge</h4>
+                <div style={{border:"2px solid black",borderTop:"none"}}>
+                  <p> Mobile App prototype whit React Native</p>
+                  <p style={{maxWidth:450}}>
+                    Projet React Native avec API Twitter et ChatGPT. 
+                    Développement front-end, intégration d'API, logique d'application.
+                    Lauréat du Troisième Prix en hackathon.</p>
+                </div>
             </div>
           </div>
           <div className="about-content">
