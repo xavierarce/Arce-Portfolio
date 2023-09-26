@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-import profileImage from "./profile.png";
+// import profileImage from "./profile.png";
+import premioC from "./premioC.png";
 import Resume1 from "./Xavier Arce CV 25-09.pdf";
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
               <img
                 alt="Profile Pic"
                 className="img-fluid rounded shadow-lg about-img"
-                src={profileImage}
+                src={premioC}
               />
             </div>
           </div>

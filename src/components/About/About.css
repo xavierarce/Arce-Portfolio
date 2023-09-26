@@ -12,13 +12,14 @@
 .about-img-container {
   width: 40%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .about-img {
   width: 100%;
-  max-width: 300px;
+  max-width: 600px;
   border-radius: 1%;
+  height: 300px;
 }
 
 .about-content {
