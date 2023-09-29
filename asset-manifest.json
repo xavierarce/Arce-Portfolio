@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.ae164f1b.css",
-    "main.js": "/Arce-Portfolio/static/js/main.0dddf33a.js",
+    "main.css": "/Arce-Portfolio/static/css/main.2107626c.css",
+    "main.js": "/Arce-Portfolio/static/js/main.51c2161c.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/premioC.png": "/Arce-Portfolio/static/media/premioC.5accc8de3df59d6bf89b.png",
     "static/media/ECommerce.png": "/Arce-Portfolio/static/media/ECommerce.381d191e66e4f195c977.png",
@@ -20,15 +20,16 @@
     "static/media/Node.js.png": "/Arce-Portfolio/static/media/Node.js.7da25231c76fbc0c9941.png",
     "static/media/Typescript.png": "/Arce-Portfolio/static/media/Typescript.52ea0bc40ba11d507e7d.png",
     "static/media/Firebase.png": "/Arce-Portfolio/static/media/Firebase.e7e0ef005f445039db83.png",
+    "static/media/social.png": "/Arce-Portfolio/static/media/social.d595d518e898655d2f65.png",
     "static/media/3.png": "/Arce-Portfolio/static/media/3.d8ae9908fb0939aa70b6.png",
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.ae164f1b.css.map": "/Arce-Portfolio/static/css/main.ae164f1b.css.map",
-    "main.0dddf33a.js.map": "/Arce-Portfolio/static/js/main.0dddf33a.js.map",
+    "main.2107626c.css.map": "/Arce-Portfolio/static/css/main.2107626c.css.map",
+    "main.51c2161c.js.map": "/Arce-Portfolio/static/js/main.51c2161c.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae164f1b.css",
-    "static/js/main.0dddf33a.js"
+    "static/css/main.2107626c.css",
+    "static/js/main.51c2161c.js"
   ]
 }
