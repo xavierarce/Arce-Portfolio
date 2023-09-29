@@ -7,23 +7,34 @@ const Footer = () => {
 
   const handleScrollToTop = () => {
     scroll.scrollToTop({
-      duration: 2000, // Scroll duration in milliseconds
+      duration: 850, // Scroll duration in milliseconds
       smooth: "easeInOutQuart", // Scroll easing function
     });
   };
 
+  const Size=35;
+  const ICON_STYLE = {
+    width: Size,
+    height: Size,
+  };
+  
+  
+
   return (
-    <footer className="footer pa4 ">
-      <div className='centrado'>
+    <footer className="footer ">
+      <div className='pa2'>
         <a href="#top" className="f5 link white" onClick={handleScrollToTop}>
           <i> Return</i>
         </a>
       </div>  
-    <div className="container centrado pa4 f4 ">
+    <div className="container centrado pb2 f4 ">
       <div className='social-icons-wrapper'>
-        <SocialIcon url="https://www.linkedin.com/in/xavier-isaias-arce-carvajal/" network="linkedin" fgColor="#ffffff" /> 
-        <SocialIcon url="https://github.com/xavierarce" network="github" fgColor="#ffffff" /> 
-        <SocialIcon url="https://www.instagram.com/xavierarce_/" network="instagram" fgColor="#ffffff" bgColor="#dd2a7b" /> 
+        <a href='https://wa.me/33668715685' target='_blanc'>
+        <SocialIcon  network="whatsapp" fgColor="#ffffff" style={ICON_STYLE}/> 
+        </a>
+        <a href='https://www.instagram.com/xavierarce_/' target='_blanc'>
+        <SocialIcon network="instagram" fgColor="#ffffff"  style={ICON_STYLE}/>
+        </a> 
       </div>
 
       <hr className='w-50 gray' />

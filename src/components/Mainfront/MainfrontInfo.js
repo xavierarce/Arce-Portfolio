@@ -6,14 +6,12 @@ import pg3 from "./ICONS/3.png";
 import pg5 from "./ICONS/5.png";
 import profileImage from "./profile.png";
 import Tilt from 'react-parallax-tilt';
-import Contact from "./ContactMainfront";
 
 const MainfrontInfo = () => {
   return (
     <section id="hero" className="centrado">
-      <Contact/>
-      <div className="mainfront container">
-        <div style={{marginBottom:75}}>
+      <div style={{height:'75vh'}} className="mainfront container">
+        <div style={{marginBottom:75,width:'90%'}}>
           <h1 className="f1 red" style={{ color: "#272341" }}>
             Hi! I'm   <span className="nalo-words">Xavier Arce</span>
             <br />
@@ -43,6 +41,7 @@ const MainfrontInfo = () => {
                 <img
                   alt="Project-img"
                   className="icons"
+                  style={{ border: '1px solid grey' }}
                   src={pg5}
                   height={50}
                 />
@@ -67,8 +66,8 @@ const MainfrontInfo = () => {
           </a>
         </p>
       </div>
-        <div className="profile">
-          <img
+        <div  style={{height:'60vh'}} className="profile">
+          <img 
                   alt="Profile Pic"
                   className="img-fluid rounded shadow-lg about-img"
                   src={profileImage}
