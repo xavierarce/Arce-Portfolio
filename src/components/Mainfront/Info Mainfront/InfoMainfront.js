@@ -8,11 +8,14 @@ import profileImage from "../profile.png";
 import Tilt from 'react-parallax-tilt';
 
 const Infomainfront = () => {
+
+  const imageSources = [pg1, pg3, pg5, pg2];
+
   return (
-    <section id="hero" className="centrado">
-      <div style={{height:'90vh'}} className="mainfront container">
-        <div style={{marginBottom:75,width:'90%'}}>
-          <h1 className="f1 red" style={{ color: "#272341" }}>
+    <section  id="hero" className="centrado">
+      <div id="hero2" className="mainfront container">
+        <div className="Texto">
+          <h1 className="f1" >
             Hi! I'm   <span className="nalo-words">Xavier Arce</span>
             <br />
             Full Stack Web Developer
@@ -20,59 +23,30 @@ const Infomainfront = () => {
             Crafting Digital Experiences
           </h1>
           <div className="skills" >
-              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                <img
-                  alt="Project-img"
-                  className="icons"
-                  src={pg1}
-                  height={50}
-                />
+            {imageSources.map((src, index) => (
+              <Tilt key={index} className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                <img alt={`Project-img-${index}`} className="icons" src={src} height={50} style={{ border: '1px solid grey' }} />
               </Tilt>
-              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                <img
-                  alt="Project-img"
-                  className="icons"
-                  src={pg3}
-                  height={50}
-                />
-              </Tilt>
-
-              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                <img
-                  alt="Project-img"
-                  className="icons"
-                  style={{ border: '1px solid grey' }}
-                  src={pg5}
-                  height={50}
-                />
-              </Tilt>
-              <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                <img
-                  alt="Project-img"
-                  className="icons"
-                  src={pg2}
-                  height={50}
-                />
-              </Tilt>
+            ))}
           </div>
         </div>
-        <p className="f3 grow">
-          <a
-            rel="noreferrer"
-            className="f3 b shadow-3 pa3 gorw nalo-words"
-            href="#about"
-          >
-            Get to know me
-          </a>
-        </p>
-      </div>
-        <div  style={{height:'60vh'}} className="profile">
+        <div  style={{height:'60vh', width:'45%'}} className="profile">
           <img 
-                  alt="Profile Pic"
-                  className="img-fluid rounded shadow-lg about-img"
-                  src={profileImage}
+                alt="Profile Pic"
+                className="profile-img "
+                src={profileImage}
           />
         </div>
+      </div>
+      <div className=" KnowMeBttn f3 b shadow-3 pa3 grow centrado">
+        <a
+          rel="noreferrer"
+          className="nalo-words"
+          href="#about"
+        >
+          Get to know me
+        </a>
+      </div>
     </section>
   );
 };

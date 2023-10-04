@@ -1,15 +1,7 @@
-.Mainfront{
-  background-color: blue;
-}
-.MainfrontIcons{
-  background-color: aquamarine;
-}
-
 .container-icons{
   display: flex;
   justify-content:flex-end;
   align-items: center;
-  background-color: black;
 }
 
 .hr-Final {

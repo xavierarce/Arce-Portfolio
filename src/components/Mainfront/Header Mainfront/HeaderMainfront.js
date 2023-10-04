@@ -35,9 +35,6 @@ const HeaderMainfront = () => {
               <SocialIcon network="github" fgColor="black" bgColor='white' /> 
             </a>  
           </div>
-        <div>
-          <hr  className='hr-Final' />
-        </div>
       </div>
     </header>
   )
