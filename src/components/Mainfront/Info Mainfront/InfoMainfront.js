@@ -4,13 +4,12 @@ import ReactJS from "../ICONS/ReactJs.png";
 import ReactNative from "../ICONS/ReactNative.png";
 import JavaS from "../ICONS/JavaS.png";
 import PostSQL from "../ICONS/PostgreSQL.png";
-import profileImage from "../profile.png";
+import profileImage from "../ICONS/profile.png";
 import Tilt from 'react-parallax-tilt';
 
 const Infomainfront = () => {
 
-  const imageSources = [ReactJS, JavaS, PostSQL, ReactNative
-];
+  const imageSources = [ReactJS, JavaS, PostSQL, ReactNative];
 
   return (
     <section  id="hero" className="">

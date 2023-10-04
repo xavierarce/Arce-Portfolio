@@ -1,65 +1,63 @@
 import React from "react";
 import "./About.css";
 // import profileImage from "./profile.png";
-import premioC from "./premioC.png";
-import Resume1 from "./Xavier Arce CV 25-09.pdf";
+import Prix from "./Files About/Prix.png";
+import ResumeFR from "./Files About/Xavier Arce FR 04-10.pdf";
 
 const About = () => {
   return (
     <section id="about" className="about-section nalo">
-      <div className="container centrado">
-        <h2 className="section-title white">ABOUT ME</h2>
+      <div className=" centrado">
+        <h2 className="section-title-about white">ABOUT ME</h2>
         <div className="about-container">
           <div className="about-img-container">
-            <div className="about-wrapper__image load-hidden">
+            <div className="about-img-inside">
               <img
                 alt="Profile Pic"
-                className="img-fluid rounded shadow-lg about-img"
-                src={premioC}
+                className="about-img"
+                src={Prix}
               />
-                <h4 style={{border: "2px solid black",padding: "0.8rem ",fontWeight: 700, marginBottom:0}}>
-                A Proud Third Place Finish in the Hackathon Challenge</h4>
+                <p style={{border: "2px solid black",padding: "0.8rem ",fontWeight: 700, marginBottom:0}}>
+                A Proud Third Place Finish in the Hackathon Challenge</p>
                 <div style={{border:"2px solid black",borderTop:"none"}}>
                   <p> Mobile App prototype whit React Native</p>
-                  <p style={{maxWidth:450}}>
+                  <p>
                     Projet React Native avec API Twitter et ChatGPT. 
                     Développement front-end, intégration d'API, logique d'application.
                     Lauréat du Troisième Prix en hackathon.</p>
                 </div>
             </div>
           </div>
-          <div className="about-content">
-            <div className="tl">
-              <p className="f4 white">
-                I'm a passionate web developer with a strong foundation in JavaScript, React, and CSS. 
-                My focus is on pursuing an informatics degree at ESGI in Toulouse, France.
-                Specializing in Web development and Cybersecurity.
-                I've honed my skills, especially in React.js, allowing me to create dynamic and responsive web interfaces efficiently.
-              </p>
-              <p className="f4 white">
+          <div className="about-content tj">
+            <p className="f4 white">
+              I'm a passionate web developer with a strong foundation in JavaScript, React, and CSS. 
+              My focus is on pursuing an informatics degree at ESGI in Toulouse, France.
+              Specializing in Web development and Cybersecurity.
+              I've honed my skills, especially in React.js, allowing me to create dynamic and responsive web interfaces efficiently.
+              <br/>
+              <br/>
               In addition to my technical prowess, I'm multilingual, fluent in Spanish and English, enhancing my ability to collaborate across diverse teams.
               With previous experience in sales and real estate, I bring strong communication and customer service skills to the tech industry.
-              </p>
-              <p className="f4 white mt4 mb5">
+              <br/>
+              <br/>
               Eager to contribute my expertise, I'm excited to take on new challenges and innovative projects.
               My dedication, proficiency in React.js, and multilingual capabilities make me a valuable asset in the technology field.
-              </p>
-              <span>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  className="f6 link dim ba bw1 ph3 pv2 mb2 dib white"
-                  href={Resume1}
-                  style={{
-                    border: "2px solid #fff",
-                    padding: "0.8rem 1.6rem",
-                    fontWeight: 700,
-                  }}
-                >
-                  Check Resume
-                </a>
-              </span>
-            </div>
+            </p>
+            <span className="pt3"> 
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="f6 link white"
+                href={ResumeFR}
+                style={{
+                  border: "2px solid #fff",
+                  padding: "0.8rem 1.6rem",
+                  fontWeight: 700,
+                }}
+              >
+                Check Resume
+              </a>
+            </span>
           </div>
         </div>
       </div>
