@@ -4,10 +4,8 @@
   align-items: center;
 }
 
-.hr-Final {
-  max-width: 25%; /* Set the maximum width to 25% of the parent container */
-  margin-right: 2px; /* Adjust margin as needed */
-  background-color: gray; /* Set the background color to gray */
-  height: 1px; /* Set the height of the hr element */
-  border: 0; /* Remove default border */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0.5em;
+  }
 }

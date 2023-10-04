@@ -1,21 +1,22 @@
 import React from "react";
 import "./InfoMainfront.css";
-import pg1 from "../ICONS/1.png";
-import pg2 from "../ICONS/2.png";
-import pg3 from "../ICONS/3.png";
-import pg5 from "../ICONS/5.png";
+import ReactJS from "../ICONS/ReactJs.png";
+import ReactNative from "../ICONS/ReactNative.png";
+import JavaS from "../ICONS/JavaS.png";
+import PostSQL from "../ICONS/PostgreSQL.png";
 import profileImage from "../profile.png";
 import Tilt from 'react-parallax-tilt';
 
 const Infomainfront = () => {
 
-  const imageSources = [pg1, pg3, pg5, pg2];
+  const imageSources = [ReactJS, JavaS, PostSQL, ReactNative
+];
 
   return (
-    <section  id="hero" className="centrado">
+    <section  id="hero" className="">
       <div id="hero2" className="mainfront container">
-        <div className="Texto">
-          <h1 className="f1" >
+        <div className="">
+          <h1 className="Texto tl " >
             Hi! I'm   <span className="nalo-words">Xavier Arce</span>
             <br />
             Full Stack Web Developer
@@ -25,12 +26,12 @@ const Infomainfront = () => {
           <div className="skills" >
             {imageSources.map((src, index) => (
               <Tilt key={index} className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                <img alt={`Project-img-${index}`} className="icons" src={src} height={50} style={{ border: '1px solid grey' }} />
+                <img alt={`Project-img-${index}`} className="icons" src={src} height={60}/>
               </Tilt>
             ))}
           </div>
         </div>
-        <div  style={{height:'60vh', width:'45%'}} className="profile">
+        <div  className="profile">
           <img 
                 alt="Profile Pic"
                 className="profile-img "

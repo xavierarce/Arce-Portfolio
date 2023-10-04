@@ -1,63 +1,81 @@
 #hero {
-    min-height: 50vh;
-    height: 80%;
-    align-items: center;
-    display: block;
-    text-align: left;
+  min-height: 50vh;
+  height: 80%;
+  align-items: center;
+  display: block;
+  text-align: left;
 }
 #hero2 {
-    min-height: 50vh;
-    height: 80vh;
-    color: #272341;
-    background: #fff;
-    align-items: center;
-    font-weight: 400;
-    width: 100%;
+  min-height: 50vh;
+  height: 80vh;
+  color: #272341;
+  background: #fff;
+  align-items: center;
+  font-weight: 400;
+  width: 100%;
 }
 
 .Texto{
-}
-
-@media screen and (max-width: 768px) {
-#hero {
-    justify-content: flex-start;
-    text-align: center;
-    height: 80vh;
-}
+  font-size: 3em; 
 }
 
 .skills{
-    display: flex;
+  display: flex;
 }
 
 .icons{
-    margin: 1%;
-    border-radius: 35%;
+  margin: 1%;
+  border-radius: 35%;
 }
 
 .profile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
 }
 
 .profile-img {
-    width: 70%;
-    max-width: 100%; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
-    height: auto; 
-    max-width: 600px;
-    border-radius: 1%;
+  width: 70%;
+  max-width: 100%; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
+  height: auto; 
+  max-width: 600px;
+  border-radius: 1%;
 }
 .mainfront{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .KnowMeBttn{
-    width: fit-content;
+  width: fit-content;
+}
+
+
+@media screen and (max-width: 500px) {
+  #hero {
+    min-height: 100vh;
+    height: 100vh;
+    align-items: center;
+    display: block;
+    text-align: left;
+  }
+  
+  .Texto{
+    /* background-color: aqua; */
+    font-size: 1.75em; 
+  }
+  .skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icons{
+    margin: 1%;
+    border-radius: 35%;
+  }
 }
 
