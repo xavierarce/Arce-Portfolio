@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.2107626c.css",
-    "main.js": "/Arce-Portfolio/static/js/main.51c2161c.js",
+    "main.css": "/Arce-Portfolio/static/css/main.ab5cfb08.css",
+    "main.js": "/Arce-Portfolio/static/js/main.189036ec.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/premioC.png": "/Arce-Portfolio/static/media/premioC.5accc8de3df59d6bf89b.png",
     "static/media/ECommerce.png": "/Arce-Portfolio/static/media/ECommerce.381d191e66e4f195c977.png",
@@ -11,25 +11,25 @@
     "static/media/Xavier Arce CV 25-09.pdf": "/Arce-Portfolio/static/media/Xavier Arce CV 25-09.75a257a35a9a2759b47d.pdf",
     "static/media/RoboFriends.png": "/Arce-Portfolio/static/media/RoboFriends.c7344d265f5f0cba0cf1.png",
     "static/media/GraphQL_Logo.png": "/Arce-Portfolio/static/media/GraphQL_Logo.0fed447ce4ed74374bdb.png",
-    "static/media/1.png": "/Arce-Portfolio/static/media/1.dd00f9bb641e25785490.png",
+    "static/media/PostgreSQL.png": "/Arce-Portfolio/static/media/PostgreSQL.e1a0cd2659e9dde63273.png",
     "static/media/React.png": "/Arce-Portfolio/static/media/React.dd00f9bb641e25785490.png",
-    "static/media/2.png": "/Arce-Portfolio/static/media/2.8a90c346a3397f55db06.png",
+    "static/media/ReactJs.png": "/Arce-Portfolio/static/media/ReactJs.dd00f9bb641e25785490.png",
+    "static/media/ReactNative.png": "/Arce-Portfolio/static/media/ReactNative.8a90c346a3397f55db06.png",
     "static/media/CSS3.png": "/Arce-Portfolio/static/media/CSS3.e45638344f12f3855ca0.png",
-    "static/media/5.png": "/Arce-Portfolio/static/media/5.665ba81caae42662b9f8.png",
     "static/media/MySQL.png": "/Arce-Portfolio/static/media/MySQL.665ba81caae42662b9f8.png",
     "static/media/Node.js.png": "/Arce-Portfolio/static/media/Node.js.7da25231c76fbc0c9941.png",
     "static/media/Typescript.png": "/Arce-Portfolio/static/media/Typescript.52ea0bc40ba11d507e7d.png",
     "static/media/Firebase.png": "/Arce-Portfolio/static/media/Firebase.e7e0ef005f445039db83.png",
     "static/media/social.png": "/Arce-Portfolio/static/media/social.d595d518e898655d2f65.png",
-    "static/media/3.png": "/Arce-Portfolio/static/media/3.d8ae9908fb0939aa70b6.png",
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
+    "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.2107626c.css.map": "/Arce-Portfolio/static/css/main.2107626c.css.map",
-    "main.51c2161c.js.map": "/Arce-Portfolio/static/js/main.51c2161c.js.map",
+    "main.ab5cfb08.css.map": "/Arce-Portfolio/static/css/main.ab5cfb08.css.map",
+    "main.189036ec.js.map": "/Arce-Portfolio/static/js/main.189036ec.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2107626c.css",
-    "static/js/main.51c2161c.js"
+    "static/css/main.ab5cfb08.css",
+    "static/js/main.189036ec.js"
   ]
 }
