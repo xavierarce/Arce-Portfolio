@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.87637d27.css",
-    "main.js": "/Arce-Portfolio/static/js/main.9961fd22.js",
+    "main.css": "/Arce-Portfolio/static/css/main.e1ff72b2.css",
+    "main.js": "/Arce-Portfolio/static/js/main.8169915e.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
-    "static/media/premioC.png": "/Arce-Portfolio/static/media/premioC.5accc8de3df59d6bf89b.png",
+    "static/media/Prix.png": "/Arce-Portfolio/static/media/Prix.5accc8de3df59d6bf89b.png",
     "static/media/ECommerce.png": "/Arce-Portfolio/static/media/ECommerce.381d191e66e4f195c977.png",
     "static/media/profile.png": "/Arce-Portfolio/static/media/profile.741fc4a64cedbc339a29.png",
     "static/media/LinearGradient.png": "/Arce-Portfolio/static/media/LinearGradient.e5fd3fe7f6f4c1fd4a9f.png",
     "static/media/SmartBrain.png": "/Arce-Portfolio/static/media/SmartBrain.db66af61ab0abf738945.png",
-    "static/media/Xavier Arce CV 25-09.pdf": "/Arce-Portfolio/static/media/Xavier Arce CV 25-09.75a257a35a9a2759b47d.pdf",
+    "static/media/Xavier Arce FR 04-10.pdf": "/Arce-Portfolio/static/media/Xavier Arce FR 04-10.63b5603fdd2ccaa41e96.pdf",
     "static/media/RoboFriends.png": "/Arce-Portfolio/static/media/RoboFriends.c7344d265f5f0cba0cf1.png",
     "static/media/GraphQL_Logo.png": "/Arce-Portfolio/static/media/GraphQL_Logo.0fed447ce4ed74374bdb.png",
     "static/media/PostgreSQL.png": "/Arce-Portfolio/static/media/PostgreSQL.e1a0cd2659e9dde63273.png",
@@ -24,12 +24,12 @@
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.87637d27.css.map": "/Arce-Portfolio/static/css/main.87637d27.css.map",
-    "main.9961fd22.js.map": "/Arce-Portfolio/static/js/main.9961fd22.js.map",
+    "main.e1ff72b2.css.map": "/Arce-Portfolio/static/css/main.e1ff72b2.css.map",
+    "main.8169915e.js.map": "/Arce-Portfolio/static/js/main.8169915e.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87637d27.css",
-    "static/js/main.9961fd22.js"
+    "static/css/main.e1ff72b2.css",
+    "static/js/main.8169915e.js"
   ]
 }
