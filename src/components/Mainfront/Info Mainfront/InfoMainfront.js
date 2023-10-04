@@ -1,16 +1,16 @@
 import React from "react";
-import "./Mainfront.css";
-import pg1 from "./ICONS/1.png";
-import pg2 from "./ICONS/2.png";
-import pg3 from "./ICONS/3.png";
-import pg5 from "./ICONS/5.png";
-import profileImage from "./profile.png";
+import "./InfoMainfront.css";
+import pg1 from "../ICONS/1.png";
+import pg2 from "../ICONS/2.png";
+import pg3 from "../ICONS/3.png";
+import pg5 from "../ICONS/5.png";
+import profileImage from "../profile.png";
 import Tilt from 'react-parallax-tilt';
 
-const MainfrontInfo = () => {
+const Infomainfront = () => {
   return (
     <section id="hero" className="centrado">
-      <div style={{height:'75vh'}} className="mainfront container">
+      <div style={{height:'90vh'}} className="mainfront container">
         <div style={{marginBottom:75,width:'90%'}}>
           <h1 className="f1 red" style={{ color: "#272341" }}>
             Hi! I'm   <span className="nalo-words">Xavier Arce</span>
@@ -77,4 +77,4 @@ const MainfrontInfo = () => {
   );
 };
 
-export default MainfrontInfo;
+export default Infomainfront;

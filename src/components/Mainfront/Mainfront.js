@@ -1,13 +1,12 @@
 import React from "react";
-import "./Mainfront.css";
-import MainfrontInfo from "./MainfrontInfo";
-import InfoMainfornt from "./ContactMainfront";
+import Infomainfront from "./Info Mainfront/InfoMainfront";
+import HeaderMainfront from "./Header Mainfront/HeaderMainfront";
 
 const Mainfront = () => {
   return (
       <div style={{height:'100vh'}}>
-      <InfoMainfornt />
-      <MainfrontInfo/>
+      <HeaderMainfront />
+      <Infomainfront/>
       </div>
   );
 };

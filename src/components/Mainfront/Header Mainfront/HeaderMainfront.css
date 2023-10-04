@@ -1,0 +1,21 @@
+.Mainfront{
+  background-color: blue;
+}
+.MainfrontIcons{
+  background-color: aquamarine;
+}
+
+.container-icons{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  background-color: black;
+}
+
+.hr-Final {
+  max-width: 25%; /* Set the maximum width to 25% of the parent container */
+  margin-right: 2px; /* Adjust margin as needed */
+  background-color: gray; /* Set the background color to gray */
+  height: 1px; /* Set the height of the hr element */
+  border: 0; /* Remove default border */
+}
