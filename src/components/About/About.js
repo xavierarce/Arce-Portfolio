@@ -17,7 +17,7 @@ const About = () => {
                 className="about-img"
                 src={Prix}
               />
-                <p style={{border: "2px solid black",padding: "0.8rem ",fontWeight: 700, marginBottom:0}}>
+                <p  style={{border: "2px solid black",padding: "0.8rem ",fontWeight: 700, marginBottom:0}}>
                 A Proud Third Place Finish in the Hackathon Challenge</p>
                 <div style={{border:"2px solid black",borderTop:"none"}}>
                   <p> Mobile App prototype whit React Native</p>
