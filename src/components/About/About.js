@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about" className="about-section nalo">
       <div className=" centrado">
-        <h2 className="section-title-about white">ABOUT ME</h2>
+        <h2 className="section-title-about white phone">ABOUT ME</h2>
         <div className="about-container">
           <div className="about-img-container">
             <div className="about-img-inside">
@@ -29,6 +29,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-content tj">
+        <h2 className="section-title-about white pc">ABOUT ME</h2>
             <p className="f4 white">
               I'm a passionate web developer with a strong foundation in JavaScript, React, and CSS. 
               My focus is on pursuing an informatics degree at ESGI in Toulouse, France.

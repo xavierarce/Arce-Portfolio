@@ -6,3 +6,10 @@
 .disabled {
   pointer-events: none;
 }
+
+.Project-img{
+  width: 3em;
+  height: 3em;
+  max-width: auto; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
+  max-height: auto; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
+}

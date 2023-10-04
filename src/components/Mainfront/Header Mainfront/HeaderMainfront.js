@@ -7,7 +7,7 @@ import './HeaderMainfront.css'
 const HeaderMainfront = () => {
   const handleScrollToBottom = () => {
     scroll.scrollToBottom({
-      duration: 500, // Scroll duration in milliseconds
+      duration: 1000, // Scroll duration in milliseconds
       smooth: "easeInOutQuart", // Scroll easing function
     });
   };

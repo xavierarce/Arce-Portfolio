@@ -9,6 +9,10 @@
   font-weight: 700;
 }
 
+.phone{
+  display: none;
+}
+
 .about-container {
   display: flex;
   flex-wrap: wrap;
@@ -97,5 +101,12 @@
   }
   .about-content p {
     font-size: 0.8rem;
-}
+  }
+  .pc{
+    display: none;
+  }
+  .phone{
+    display: block;
+    margin-top: 0;
+  }
 }

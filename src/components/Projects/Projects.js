@@ -19,6 +19,9 @@ const Projects = () => {
 
   const iconsProjectEC=[ReactJs,Firebase,GraphQL,TypeScript];
   const iconsProjectSB=[JS,ReactJs,MySQL,Node]
+  const iconsProjectRF=[JS,ReactJs]
+  const iconsProjectLG=[JS,CSS3]
+
 
 
   return (
@@ -30,7 +33,7 @@ const Projects = () => {
           {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
 
           <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-100 w-40-ns  h-100 pr3-ns order-1">
+            <div className="w-40-ns  h-100 pr3-ns order-1">
               <div className="project-wrapper__text load-hidden">
                 <h3 className="pj-EC f2" style={{display:'inline-block'}}>Site E-Commerce</h3>
                 <div>
@@ -48,10 +51,9 @@ const Projects = () => {
                   {iconsProjectEC.map((src,index)=>(
                     <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
                     <img
-                      alt="Project-img"
-                      className=""
+                      alt=""
+                      className="Project-img"
                       src={src}
-                      height={50}
                     />
                     </Tilt>
                   ))}
@@ -71,8 +73,8 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            <div className="w-100 w-60-ns pl3-ns order-2">
-              <div className="">
+            <div className="w-60-ns pl3-ns order-2">
+              <div >
                   <div>
                     <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
                       <img
@@ -90,7 +92,7 @@ const Projects = () => {
           {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
 
           <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-100 w-40-ns  h-100 pr3-ns order-1">
+            <div className="w-40-ns  h-100 pr3-ns order-1">
               <div className="project-wrapper__text load-hidden">
                 <h3 className="pj-SB f2" style={{display:'inline-block'}}>SmartBrain</h3>
                 <div>
@@ -112,10 +114,9 @@ const Projects = () => {
                 {iconsProjectSB.map((src,index)=>(
                     <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
                     <img
-                      alt="Project-img"
-                      className=""
+                      alt=""
+                      className="Project-img"
                       src={src}
-                      height={50}
                     />
                     </Tilt>
                   ))}
@@ -136,7 +137,7 @@ const Projects = () => {
                 
               </div>
             </div>
-            <div className="w-100 w-60-ns pl3-ns order-2">
+            <div className="w-60-ns pl3-ns order-2">
               <div className="">
                 <a rel="noreferrer" href="https://xavierarce.github.io/FACEDETECTOR-APP/" target="_blank">
                   <div>
@@ -157,7 +158,7 @@ const Projects = () => {
           {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
 
           <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-100 w-40-ns  h-100 pr3-ns order-1">
+            <div className="w-40-ns  h-100 pr3-ns order-1">
               <div className="project-wrapper__text load-hidden">
                 <h3 className="pj-RF f2" style={{display:'inline-block'}}>RoboFriends</h3>
                 <div>
@@ -177,22 +178,11 @@ const Projects = () => {
                 </div>
                 <br/>
                 <div className="skills" style={ {marginBottom:40}} >
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={JS}
-                          height={50}
-                        />
+                      {iconsProjectRF.map((icon,index)=>(
+                        <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img alt="" className="Project-img" src={icon} />
                       </Tilt>
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={ReactJs}
-                          height={50}
-                        />
-                      </Tilt>
+                      ))}
                 </div>
                 <a
                   rel="noreferrer"
@@ -207,22 +197,9 @@ const Projects = () => {
                 >
                   See Live
                 </a>
-                {/* <a
-                  rel="noreferrer"
-                  target="_blank"
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                  href="google.com"
-                >
-                  Source Code
-                </a> */}
               </div>
             </div>
-            <div className="w-100 w-60-ns pl3-ns order-2">
+            <div className="w-60-ns pl3-ns order-2">
               <div className="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://my-friends-cards.netlify.app/" target="_blank">
                   <div>
@@ -242,7 +219,7 @@ const Projects = () => {
           {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
 
           <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-100 w-40-ns  h-100 pr3-ns order-1">
+            <div className="w-40-ns  h-100 pr3-ns order-1">
               <div className="project-wrapper__text load-hidden">
               <h3 className="f2 pj-LG" style={{display:'inline-block'}}>RGB Generator</h3>
                 <div>
@@ -256,22 +233,11 @@ const Projects = () => {
                 </div>
                 <br/>
                 <div className="skills" style={ {marginBottom:40}} >
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={JS}
-                          height={50}
-                        />
+                  {iconsProjectLG.map((icon,index)=>(
+                        <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                        <img alt="" className="Project-img" src={icon} />
                       </Tilt>
-                      <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img
-                          alt="Project-img"
-                          className=""
-                          src={CSS3}
-                          height={50}
-                        />
-                      </Tilt>
+                  ))}
                 </div>
                 <a
                   rel="noreferrer"
@@ -286,22 +252,9 @@ const Projects = () => {
                 >
                   See Live
                 </a>
-                {/* <a
-                  rel="noreferrer"
-                  target="_blank"
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                  href="https://github.com/xavierarce/Random-Generator.git"
-                >
-                  Source Code
-                </a> */}
               </div>
             </div>
-            <div className="w-100 w-60-ns pl3-ns order-2">
+            <div className="w-60-ns pl3-ns order-2">
               <div className="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://xavierarce.github.io/Random-Generator/" target="_blank">
                   <div>
