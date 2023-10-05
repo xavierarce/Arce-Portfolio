@@ -17,9 +17,10 @@
 
 .Texto{
   font-size: 3em; 
+
 }
 
-.skills{
+.skills-mainfront{
   display: flex;
 }
 
@@ -63,16 +64,15 @@
     text-align: left;
   }
   
-  .Texto{
+  .Texto {
     /* background-color: aqua; */
     font-size: 1.75em; 
+    text-align: center;
   }
-  .skills{
+  .skills-mainfront {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
-  
-  
 }
-

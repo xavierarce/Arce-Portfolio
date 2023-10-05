@@ -30,244 +30,150 @@ const Projects = () => {
         <div className="project-wrapper">
           <h2 className=" section-title ma4" style={{color:'#272341'}}>Projects</h2>
 
-          {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
+          {/* New Project */}
 
-          <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-40-ns  h-100 pr3-ns order-1">
-              <div className="project-wrapper__text load-hidden">
-                <h3 className="pj-EC f2" style={{display:'inline-block'}}>Site E-Commerce</h3>
-                <div>
-                  <p className="mb-4 lh-copy">
-                  React, Firebase, Redux Saga, Hooks, GraphQL, TypeScript.
-                  <br/>
-                  Utilisation de Redux pour la gestion de l'état et paiements via Stripe.
-                  <br/>
-                  Progressive Web App (PWA) et tests.
-                  <br/>
-                  </p>
-                  <br/>
-                </div>
-                <div className="skills" style={ {marginBottom:40}} >
-                  {iconsProjectEC.map((src,index)=>(
-                    <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                    <img
-                      alt=""
-                      className="Project-img"
-                      src={src}
-                    />
-                    </Tilt>
-                  ))}
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href=" "
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black disabled"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                >
-                  En Course*
-                </a>
-              </div>
-            </div>
-            <div className="w-60-ns pl3-ns order-2">
-              <div >
-                  <div>
-                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                      <img
-                        alt="Project-img"
-                        className=""
-                        src={Ecommerce}
-                      />
-                    </Tilt>
-                  </div>
-              </div>
-            </div>
-          </div>
-          
-          
-          {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
-
-          <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-40-ns  h-100 pr3-ns order-1">
-              <div className="project-wrapper__text load-hidden">
-                <h3 className="pj-SB f2" style={{display:'inline-block'}}>SmartBrain</h3>
-                <div>
-                  <p className="mb-4 lh-copy">
-                  Front-end developed in React, providing an intuitive and attractive User Interface (UI).
-                  <br/>
-                  Integration of an Image Recognition API for accurate recognition.
-                  <br/>
-                  Back-end implemented with Node.js and Express, including a custom server.
-                  <br/>
-                  Usage of a database to store information of registered users and faces.
-                  <br/>
-                  Implementation of a secure authentication system to access the application.
-                    
-                  </p>
-                  <br/>
-                </div>
-                <div className="skills" style={ {marginBottom:40}} >
-                {iconsProjectSB.map((src,index)=>(
-                    <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                    <img
-                      alt=""
-                      className="Project-img"
-                      src={src}
-                    />
-                    </Tilt>
-                  ))}
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://xavierarce.github.io/FACEDETECTOR-APP/"
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                >
-                  See Live
-                </a>
-                
-              </div>
-            </div>
-            <div className="w-60-ns pl3-ns order-2">
-              <div className="">
-                <a rel="noreferrer" href="https://xavierarce.github.io/FACEDETECTOR-APP/" target="_blank">
-                  <div>
-                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                      <img
-                        alt="Project-img"
-                        className=""
-                        src={SmartBrain}
-                      />
-                    </Tilt>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          
-          {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
-
-          <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-40-ns  h-100 pr3-ns order-1">
-              <div className="project-wrapper__text load-hidden">
-                <h3 className="pj-RF f2" style={{display:'inline-block'}}>RoboFriends</h3>
-                <div>
-                  <p className="mb-4 lh-copy">
-                    React Framework: Developed using React, allowing reusable components and efficient state management.
-                    <br/>
-                    Robot Directory: Displays robot cards with names, emails, and avatars.
-                    <br/>
-                    Real-Time Search: Instant search updates robot cards based on the search query.
-                    <br/>
-                    Fetching Data: Simulated data fetching from an external API for state management.
-                    <br/>
-                    Responsive Design: UI adapts seamlessly to different devices.
-                    <br/>
-                    Styling: CSS & Tachyons for a clean and modern appearance.
-                  </p>
+          <div className="entire-project">
+            <div className="info-project">
+              <div className="project-wrapper__text">
+                <h3 className="pj-EC">Site E-Commerce</h3>
+                <div className="project-text">
+                  <p>React, Firebase, Redux Saga, Hooks, GraphQL, TypeScript.</p>
+                  <p>Utilisation de Redux pour la gestion de l'état et paiements via Stripe.</p>
+                  <p>Progressive Web App (PWA) et tests.</p>
                 </div>
                 <br/>
                 <div className="skills" style={ {marginBottom:40}} >
-                      {iconsProjectRF.map((icon,index)=>(
-                        <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img alt="" className="Project-img" src={icon} />
-                      </Tilt>
-                      ))}
+                  {iconsProjectEC.map((src,index)=>(
+                    <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                    <img alt="" className="project-icons-img" src={src}/>
+                    </Tilt>
+                  ))}
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://my-friends-cards.netlify.app/"
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                >
+                <p rel="noreferrer" target="_blank"  className="seeLive">
+                  En Course*
+                </p>
+              </div>
+            </div>
+            <div className="photo-project">
+                <div alt="aTag" className="">
+                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                    <img alt="Project-img" className="photo-inside-img" src={Ecommerce}/>
+                  </Tilt>
+                </div>
+            </div>
+          </div>
+          
+          {/* New Project */}
+
+          <div className="entire-project">
+            <div className="info-project">
+              <div className="project-wrapper__text">
+                <h3 className="pj-SB">SmartBrain</h3>
+                <div className="project-text">
+                  <p>Front-end developed in React, providing an intuitive and attractive User Interface (UI).</p>
+                  <p>Integration of an Image Recognition API for accurate recognition.</p>
+                  <p>Back-end implemented with Node.js and Express, including a custom server.</p> 
+                  <p>Usage of a database to store information of registered users and faces.</p>
+                  <p>Implementation of a secure authentication system to access the application.</p>
+                  <br/>
+                </div>
+                <div className="skills" style={ {marginBottom:40}} >
+                  {iconsProjectSB.map((src,index)=>(
+                    <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                    <img alt="" className="project-icons-img" src={src}/>
+                    </Tilt>
+                  ))}
+                </div>
+                <a rel="noreferrer" target="_blank" href="https://xavierarce.github.io/FACEDETECTOR-APP/" className="seeLive">
                   See Live
                 </a>
               </div>
             </div>
-            <div className="w-60-ns pl3-ns order-2">
-              <div className="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://my-friends-cards.netlify.app/" target="_blank">
-                  <div>
-                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                      <img
-                        alt="Project-img"
-                        className=""
-                        src={RoboFriends}
-                      />
-                    </Tilt>
-                  </div>
-                </a>
-              </div>
+            <div className="photo-project">
+              <a rel="noreferrer" href="https://xavierarce.github.io/FACEDETECTOR-APP/" target="_blank">
+                <div>
+                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                    <img
+                      alt="Project-img"
+                      className="photo-inside-img"
+                      src={SmartBrain}
+                    />
+                  </Tilt>
+                </div>
+              </a>
             </div>
           </div>
           
-          {/* <!-- Notice: each .row ma4  vh-100 flex justify-left items-center tl is a project --> */}
+          {/* New Project */}
 
-          <div className="row ma4   flex justify-left items-center tl">
-            <div className="w-40-ns  h-100 pr3-ns order-1">
-              <div className="project-wrapper__text load-hidden">
-              <h3 className="f2 pj-LG" style={{display:'inline-block'}}>RGB Generator</h3>
-                <div>
-                  <p className="mb-4">
-                    Small experiment.
-                    <br/>
-                    Create random RGB color codes.
-                    <br/>
-                    Using Linear Gradient to style the background
-                  </p>
+          <div className="entire-project ">
+            <div className="info-project">
+              <div className="project-wrapper__text">
+                <h3 className="pj-RF">RoboFriends</h3>
+                <div className="project-text">
+                  <p>React Framework: Developed using React, allowing reusable components and efficient state management.</p>
+                  <p>Robot Directory: Displays robot cards with names, emails, and avatars.</p>
+                  <p>Real-Time Search: Instant search updates robot cards based on the search query.</p>
+                  <p>Fetching Data: Simulated data fetching from an external API for state management.</p>
+                  <p>Responsive Design: UI adapts seamlessly to different devices.</p>
+                  <p>Styling: CSS & Tachyons for a clean and modern appearance.</p>
+                </div>
+                <br/>
+                <div className="skills" style={ {marginBottom:40}} >
+                  {iconsProjectRF.map((icon,index)=>(
+                    <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
+                    <img alt="" className="project-icons-img" src={icon} />
+                  </Tilt>
+                  ))}
+                </div>
+                  <a rel="noreferrer" target="_blank" href="https://my-friends-cards.netlify.app/" className="seeLive">
+                    See Live
+                  </a>
+              </div>
+            </div>
+            <div className="photo-project">
+                <a rel="noreferrer" href="https://my-friends-cards.netlify.app/" target="_blank">
+                  <div>
+                    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                      <img alt="Project-img" className="photo-inside-img" src={RoboFriends}/>
+                    </Tilt>
+                  </div>
+                </a>
+            </div>
+          </div>
+          
+          {/* New Project */}
+          
+          <div className="entire-project ">
+            <div className="info-project">
+              <div className="project-wrapper__text">
+              <h3 className="pj-LG">RGB Generator</h3>
+                <div  className="project-text">
+                  <p>Small experiment.</p>
+                  <p>Create random RGB color codes.</p>
+                  <p>Using Linear Gradient to style the background</p>
                 </div>
                 <br/>
                 <div className="skills" style={ {marginBottom:40}} >
                   {iconsProjectLG.map((icon,index)=>(
                         <Tilt className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
-                        <img alt="" className="Project-img" src={icon} />
+                        <img alt="" className="project-icons-img" src={icon} />
                       </Tilt>
                   ))}
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://xavierarce.github.io/Random-Generator/"
-                  className="f6 link dim ba bw3 ph3 pv2 mb2 black"
-                  style={{
-                    border: '2px solid black',
-                    padding: '0.8rem 1.6rem',
-                    fontWeight: 700,
-                  }}
-                >
+                <a rel="noreferrer" target="_blank" href="https://xavierarce.github.io/Random-Generator/" className="seeLive">
                   See Live
                 </a>
               </div>
             </div>
-            <div className="w-60-ns pl3-ns order-2">
-              <div className="project-wrapper__image load-hidden">
+            <div className="photo-project">
                 <a rel="noreferrer" href="https://xavierarce.github.io/Random-Generator/" target="_blank">
                   <div>
                     <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                      <img
-                        alt="Project-img"
-                        className=""
-                        src={LinearGradient}
-                      />
+                      <img alt="Project-img" className="photo-inside-img" src={LinearGradient}/>
                     </Tilt>
                   </div>
                 </a>
-              </div>
             </div>
           </div>
           

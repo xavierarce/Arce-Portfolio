@@ -7,9 +7,167 @@
   pointer-events: none;
 }
 
-.Project-img{
+.project-icons-img{
   width: 3em;
   height: 3em;
   max-width: auto; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
   max-height: auto; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
 }
+
+.entire-project{
+  /* background-color: green; */
+  border-bottom: 2px solid black;
+  padding-bottom: 1em;
+  display: flex;
+  min-height: 22em;
+  flex-direction: row;
+  margin: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.info-project{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+.project-wrapper__text{
+  /* background-color: lightblue; */
+  width: 100%; 
+  text-align: center; /* Center text within the container */
+}
+/* .project-text{
+  background-color: bisque;
+} */
+
+.project-text p{
+  /* background-color: bisque; */
+  line-height:1.25;
+  margin-bottom: 1em;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.skills{
+  display: flex;
+  /* background-color: black; */
+  justify-content: center;
+  margin: 0 auto; /* Center the element horizontally */
+}
+
+.seeLive {
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 0.8rem 1.6rem;
+  font-weight: 700;
+  transition: opacity 0.20s ease-in;
+  margin: 0 auto; /* Center the element horizontally */
+  width: fit-content;
+}
+.seeLive:hover {
+  opacity: 0.5; /* Adjust as needed */
+}
+
+.photo-project{
+  /* background-color: azure; */
+  width: 50%;
+}
+
+.photo-inside-img{
+  /* background-color: #142352; */
+  width: 85%;
+}
+
+.pj-SB {
+  /* SmartBrain */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(231, 95, 51), rgb(12, 155, 150));
+  font-size:2.25rem;
+  display: inline-block;
+}
+
+.pj-EC {
+  /* ECommerce */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(147, 249, 148), rgb(87, 0, 245));
+  font-size:2.25rem;
+  display: inline-block;
+}
+.pj-LG {
+  /* RGB Generator */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(238, 87, 42), rgb(97, 169, 250));
+  font-size:2.25rem;
+  display: inline-block;
+}
+.pj-RF {
+  /* Robofriends   */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg,#142352,#10d991);
+  font-size:2.25rem;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 500px) {
+  .entire-project{
+    /* background-color: green; */
+    display: flex;
+    min-height: min-content;
+    flex-direction: column;
+    margin: 2em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-project{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .photo-project{
+    /* background-color: azure; */
+    width: 100%;
+  }
+  
+  .photo-inside-img{
+    /* background-color: #142352; */
+    width: 90%;
+  }
+
+  .seeLive{
+    margin-bottom: 2em ;
+  }
+
+  .project-text p{
+    /* background-color: bisque; */
+    line-height:1.35;
+    font-size: 0.90em;
+    margin-bottom: 1em;
+    width: 85%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+

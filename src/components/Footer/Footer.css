@@ -1,17 +1,26 @@
 .footer{
     background-color: #333;
+    padding-bottom: 0.05px;
+
 }
 
 .footer hr {
     width: 50%;
     border: 0;
     border-top: 2px solid gray;
-    margin: 1rem auto;  
 }
 /* In your CSS file or styles section */
 .social-icons-wrapper {
     display: flex; /* Use flexbox to align buttons horizontally */
-    gap: 15px; /* This sets the space between each button to 10 pixels, adjust as needed */
+    gap: 3%; /* This sets the space between each button to 10 pixels, adjust as needed */
     justify-content: center;
 }
-  
+
+.return{
+    color: white;
+    font-size: 0.80rem;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    font-weight: 300;
+    transition: opacity 0.20s ease-in;
+}

@@ -1,7 +1,32 @@
-/* .contact {
-    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
-    color: #fff;
-    background-image: linear-gradient(135deg,#43c6ac 0%,#191654 100%);
-    margin-top: -10rem;
-    margin-bottom: -1px;
-    padding: 15rem 0 10rem;} */
+.contact{
+padding-bottom: 0.01em;
+line-height: 0.5 ;
+}
+
+.contact h2{
+    font-size: 1em;
+    color: white;
+    padding-top: 0.5em;
+}  
+
+.contact p{
+    font-size: 0.75em;
+    color: white;
+}
+
+.CallAction {
+    display: flex;
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0.40rem .80rem;
+    font-weight: 700;
+    transition: opacity 0.20s ease-in;
+    margin: 0 auto 1em ; /* Center the element horizontally */
+    width: fit-content;
+}
+
+.CallAction:hover {
+    opacity: 0.5; /* Adjust as needed */
+}

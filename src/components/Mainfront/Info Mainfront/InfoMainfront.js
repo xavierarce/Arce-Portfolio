@@ -15,14 +15,14 @@ const Infomainfront = () => {
     <section  id="hero" className="">
       <div id="hero2" className="mainfront container">
         <div className="">
-          <h1 className="Texto tl " >
+          <h1 className="Texto" >
             Hi! I'm   <span className="nalo-words">Xavier Arce</span>
             <br />
             Full Stack Web Developer
             <br />
             Crafting Digital Experiences
           </h1>
-          <div className="skills" >
+          <div className="skills-mainfront" >
             {imageSources.map((src, index) => (
               <Tilt key={index} className="icons" tiltMaxAngleX={25} tiltMaxAngleY={25}>
                 <img alt={`Project-img-${index}`} className="icons" src={src} height={60}/>

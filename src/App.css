@@ -16,36 +16,6 @@
   background-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254));
 }
 
-.pj-SB {
-  /* SmartBrain */
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, rgb(231, 95, 51), rgb(12, 155, 150));
-}
-
-.pj-EC {
-  /* ECommerce */
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, rgb(147, 249, 148), rgb(87, 0, 245));
-}
-.pj-LG {
-  /* RGB Generator */
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(to right, rgb(238, 87, 42), rgb(97, 169, 250));
-}
-.pj-RF {
-  /* Robofriends   */
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(90deg,#142352,#10d991);
-}
-
 .section-title {
   text-transform: uppercase;
   margin: 0 0 4.5rem;
