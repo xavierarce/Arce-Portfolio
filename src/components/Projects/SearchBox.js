@@ -8,7 +8,7 @@ class SearchBox extends Component{
             <input
               type="search"
               className="box alternate"
-              onChange={this.onSearchChange}
+              onChange={this.props.onSearchChange}
               placeholder="Search Abilities"
             />
       </div>
