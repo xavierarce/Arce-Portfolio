@@ -1,8 +1,8 @@
 import React from "react";
 import Tilt from 'react-parallax-tilt';
-import './Project.css'
+import '../Project.css'
 
-const  ProjectComponent = ({ className, title, description, skills, liveLink, image }) => {
+const  OnCourseProjectsComponent = ({ className, title, description, skills, liveLink, image }) => {
   return (
     <div className="entire-project">
       <div className="info-project">
@@ -21,9 +21,9 @@ const  ProjectComponent = ({ className, title, description, skills, liveLink, im
               </Tilt>
             ))}
           </div>
-          <a rel="noreferrer" target="_blank" href={liveLink} className="seeLive">
-            See Live
-          </a>
+          <p rel="noreferrer" target="_blank"  className="seeLive">
+            En Course*
+          </p>
         </div>
       </div>
       <div className="photo-project">
@@ -39,4 +39,4 @@ const  ProjectComponent = ({ className, title, description, skills, liveLink, im
   );
 };
 
-export default ProjectComponent;
+export default OnCourseProjectsComponent;

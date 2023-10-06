@@ -1,18 +1,18 @@
-import ReactJs from './ICONS/React.png'
-import JS from './ICONS/JS.png'
-import MySQL from './ICONS/MySQL.png'
-import Node from './ICONS/Node.js.png'
-import CSS3 from './ICONS/CSS3.png'
-import RoboFriends from './ProjectImages/RoboFriends.png';
-import LinearGradient from './ProjectImages/LinearGradient.png';
-import SmartBrain from './ProjectImages/SmartBrain.png';
+import ReactJs from '../ICONS/React.png'
+import JS from '../ICONS/JS.png'
+import MySQL from '../ICONS/MySQL.png'
+import Node from '../ICONS/Node.js.png'
+import CSS3 from '../ICONS/CSS3.png'
+import RoboFriends from '../ProjectImages/RoboFriends.png';
+import LinearGradient from '../ProjectImages/LinearGradient.png';
+import SmartBrain from '../ProjectImages/SmartBrain.png';
 
 
 const iconsProjectSB=[JS,ReactJs,MySQL,Node]
 const iconsProjectRF=[JS,ReactJs]
 const iconsProjectLG=[JS,CSS3]
 
-const projectDetails =[
+const finishedProjects =[
     {
       className: 'SB',
       title: 'SmartBrain',
@@ -58,4 +58,4 @@ const projectDetails =[
   ];
 
 
-export default projectDetails
+export default finishedProjects
