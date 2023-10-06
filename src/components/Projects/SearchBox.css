@@ -1,0 +1,13 @@
+.box {
+  font-size: 1.2em;
+  padding: 1em;
+  margin-bottom: 1%;
+  width: 30%;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254));
+  border-image-slice: 1;
+}
+
+.alternate {
+  box-sizing: border-box;
+}

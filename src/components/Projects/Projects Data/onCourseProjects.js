@@ -1,11 +1,12 @@
 import Ecommerce from '../ProjectImages/ECommerce.png';
 
 import ReactJs from '../ICONS/React.png'
+import JS from '../ICONS/JS.png'
 import Firebase from '../ICONS/Firebase.png'
 import GraphQL from '../ICONS/GraphQL_Logo.png'
 import TypeScript from '../ICONS/Typescript.png'
 
-const iconsProjectEC=[ReactJs,Firebase,GraphQL,TypeScript];
+const iconsProjectEC=[ReactJs,JS,Firebase,GraphQL,TypeScript];
 
 
 const onCourseProjects=[
@@ -18,6 +19,7 @@ const onCourseProjects=[
         'Progressive Web App (PWA) et tests.',
       ],
       skills: iconsProjectEC,
+      abilities: 'ReactJs Firebase Javascrip GraphQL TypeScript',
       liveLink: 'https://xavierarce.github.io/Random-Generator/',
       image: Ecommerce,
     },
