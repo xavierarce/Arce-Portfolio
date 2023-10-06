@@ -38,7 +38,7 @@ const Infomainfront = () => {
           />
         </div>
       </div>
-      <div className=" KnowMeBttn f3 b shadow-3 pa3 grow centrado">
+      <div className=" KnowMeBttn grow centrado">
         <a
           rel="noreferrer"
           className="nalo-words"
