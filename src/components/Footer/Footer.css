@@ -1,26 +1,63 @@
-.footer{
-    background-color: #333;
-    padding-bottom: 0.05px;
+/* Contact */
 
+.Contact{
+  font-size: 1.25em;
+  color: white;
+  padding-top: 0.5em;
 }
 
+.Contact-Loc{
+  font-size: 1em;
+  color: white;
+}
+
+.CallAction {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 0.4rem 0.8rem;
+  font-weight: 700;
+  transition: opacity 0.2s ease-in;
+  margin: 0 auto 1em; /* Center the element horizontally */
+  width: fit-content;
+}
+
+.CallAction:hover {
+  opacity: 0.5; /* Adjust as needed */
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  padding: 0.1em;
+}
+.footer__text{
+  color: #333;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3em;
+}
 .footer hr {
-    width: 50%;
-    border: 0;
-    border-top: 2px solid gray;
+  width: 100%;
+  border: 0;
+  border-top: 2px solid gray;
 }
 /* In your CSS file or styles section */
 .social-icons-wrapper {
-    display: flex; /* Use flexbox to align buttons horizontally */
-    gap: 3%; /* This sets the space between each button to 10 pixels, adjust as needed */
-    justify-content: center;
+  display: flex; /* Use flexbox to align buttons horizontally */
+  gap: 3%; /* This sets the space between each button to 10 pixels, adjust as needed */
+  justify-content: center;
 }
 
-.return{
-    color: white;
-    font-size: 0.80rem;
-    text-decoration: none;
-    padding-bottom: 1rem;
-    font-weight: 300;
-    transition: opacity 0.20s ease-in;
+.return {
+  color: grey;
+  text-decoration: none;
+  font-size: 1em;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  font-weight: 300;
+  transition: opacity 0.2s ease-in;
 }

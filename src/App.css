@@ -2,6 +2,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-top: 50px;
 }
 
 .nalo {
@@ -14,6 +15,8 @@
   -webkit-background-clip: text;
   color: transparent;
   background-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254));
+  position: relative; /* Set position to relative */
+  z-index: 1; /* Ensure the button is above other elements */
 }
 
 .section-title {

@@ -4,10 +4,11 @@ import "./About.css";
 import Prix from "./Files About/Prix.png";
 import ResumeFR from "./Files About/Xavier Arce FR 04-10.pdf";
 
+
 const About = () => {
   return (
-    <section id="about" className="about-section nalo">
-      <div className=" centrado">
+    <section id="about" className="hero about-section nalo">
+      <div className="centrado">
         <h2 className="section-title-about white phone">ABOUT ME</h2>
         <div className="about-container">
           <div className="about-img-container">

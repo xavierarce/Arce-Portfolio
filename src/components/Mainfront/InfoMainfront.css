@@ -2,6 +2,7 @@
   align-items: center;
   display: block;
   text-align: left;
+  height: 100vh;
 }
 #hero2 {
   height: 80vh;
