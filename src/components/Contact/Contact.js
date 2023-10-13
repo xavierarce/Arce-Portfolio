@@ -1,13 +1,14 @@
 import "./Contact.css";
 import { SocialIcon } from "react-social-icons";
+import profileImage from "../Mainfront/ICONS/profile.png";
 
 const networkContacts = [
+  { network: "email", url: "mailto:xavierarce54321@gmail.com", h2: "mail me" },
   {
     network: "linkedin",
     url: "https://www.linkedin.com/in/xavier-isaias-arce-carvajal/",
     h2: "Linkedin",
   },
-  { network: "email", url: "mailto:xavierarce54321@gmail.com", h2: "mail me" },
   { network: "github", url: "https://github.com/xavierarce", h2: "github" },
 ];
 
@@ -28,7 +29,18 @@ const ContactForm = () => {
                 <span>CONTACT</span>
                 <span>ME</span>
               </div>
-              <div class="app-contact">CONTACT INFO : +33 06 68 71 56 85</div>
+              <div className="profile">
+                <img
+                  alt="Profile Pic"
+                  className="profile-img-contact"
+                  src={profileImage}
+                />
+              </div>
+              <div class="app-contact">CONTACT INFO :</div>
+              <div class="app-contact">Xavier ARCE</div>
+              <div class="app-contact">📍Toulouse, Fr</div> 
+              <div class="app-contact">+33 06 68 71 56 85</div>
+              <div class="app-contact"></div> 
             </div>
             <div class="screen-body-item">
               <div class="app-form">
@@ -47,17 +59,19 @@ const ContactForm = () => {
                   );
                 })}
                 <div class="app-form-group">
-                  {socialContacts.map((social) => {
-                    return (
-                      <SocialIcon
-                        url={social.url}
-                        network={social.network}
-                        target="blank"
-                        fgColor="black"
-                        bgColor="white"
-                      />
-                    );
-                  })}
+                  <div className="socials">
+                    {socialContacts.map((social) => {
+                      return (
+                        <SocialIcon
+                          url={social.url}
+                          network={social.network}
+                          target="blank"
+                          fgColor="black"
+                          bgColor="white"
+                        />
+                      );
+                    })}
+                  </div>
                   <h2 class="app-form-control "> Socials</h2>
                 </div>
               </div>

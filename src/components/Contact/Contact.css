@@ -1,17 +1,19 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-body, button, input {
-  font-family: 'Montserrat', sans-serif;
+body,
+button,
+input {
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1.4px;
 }
 
 .background {
-
   display: flex;
   min-height: 100vh;
 }
@@ -29,7 +31,7 @@ body, button, input {
 }
 
 .screen:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -37,7 +39,7 @@ body, button, input {
   right: 20px;
   bottom: 0;
   border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   z-index: -1;
 }
 
@@ -56,7 +58,7 @@ body, button, input {
 
 .screen-body-item {
   flex: 1;
-  padding: 50px;
+  padding: 3rem;
 }
 
 .screen-body-item.left {
@@ -73,20 +75,29 @@ body, button, input {
 }
 
 .app-title:after {
-  content: '';
+  content: "";
   display: block;
-  position: absolute;
   left: 0;
-  bottom: -10px;
-  width: 25px;
-  height: 4px;
+  width: 50%;
+  align-self: center;
+  height: 0.2rem;
   background: white;
+}
+
+.profile-img-contact {
+  width:60%;
+  max-width: 100%; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
+  height: auto; 
+  max-width: 600px;
+  border-radius: 3%;
+  margin:2rem;
 }
 
 .app-contact {
   margin-top: auto;
   font-size: 1rem;
   color: whitesmoke;
+  line-height: 1.4rem;
 }
 
 .app-form-group {
@@ -104,11 +115,11 @@ body, button, input {
   text-transform: uppercase;
 }
 
-
-.dribbble {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 520px) {
