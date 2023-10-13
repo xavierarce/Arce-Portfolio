@@ -28,6 +28,7 @@ const App = () => {
         onProjectClick={onProjectClick}
         onContactClick={onContactClick}
       />
+      <div className="contentApp">
       {page === "Main" ? (
         <Mainfront onAboutClick={onAboutClick} />
       ) : page === "About" ? (
@@ -39,6 +40,7 @@ const App = () => {
       ) : (
         <Mainfront /> // Add a fallback component or handle the case where page doesn't match any condition
       )}
+      </div>
       <Footer />
     </div>
   );

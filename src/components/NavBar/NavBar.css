@@ -1,20 +1,8 @@
-.container-icons{
-  display: flex;
-  justify-content:flex-end;
-  align-items: center;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    margin: 0.5em;
-  }
-}
-
-
 /*  New Bar */
 
 
 ul {
+  height: 8.5%;
   position: fixed;
   top: 0;
   width: 100%;

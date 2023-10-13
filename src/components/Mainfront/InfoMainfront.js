@@ -13,7 +13,7 @@ const Infomainfront = ({onAboutClick}) => {
 
   return (
     <section  id="hero" className="">
-      <div id="hero2" className="mainfront container">
+      <div id="hero2" className="mainfront">
         <div className="">
           <h1 className="Texto" >
             Hi! I'm   <span className="nalo-words">Xavier Arce</span>

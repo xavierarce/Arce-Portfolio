@@ -1,14 +1,7 @@
 import React from "react";
-// import { animateScroll as scroll } from "react-scroll";
 import "./NavBar.css";
 
 const HeaderMainfront = ( {onAboutClick, onMainClick,onProjectClick,onContactClick}) => {
-  // const handleScrollToBottom = () => {
-  //   scroll.scrollToBottom({
-  //     duration: 1000, // Scroll duration in milliseconds
-  //     smooth: "easeInOutQuart", // Scroll easing function
-  //   });
-  // };
 
   return (
       <nav>

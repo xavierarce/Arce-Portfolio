@@ -1,13 +1,15 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 50px;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .nalo {
-  background-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254))
-  ;
+  background-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254));
 }
 
 .nalo-words {
@@ -30,3 +32,6 @@
   margin: 0 auto; 
 }
 
+.contentApp {
+  flex: 1; /* Make the content div take the remaining vertical space */
+}

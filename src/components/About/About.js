@@ -4,62 +4,172 @@ import "./About.css";
 import Prix from "./Files About/Prix.png";
 import ResumeFR from "./Files About/Xavier Arce FR 04-10.pdf";
 
-
 const About = () => {
   return (
     <section id="about" className="hero about-section nalo">
-      <div className="centrado">
+      <div className="contenedor-TotalAbout centrado">
         <h2 className="section-title-about white phone">ABOUT ME</h2>
-        <div className="about-container">
-          <div className="about-img-container">
-            <div className="about-img-inside">
-              <img
-                alt="Profile Pic"
-                className="about-img"
-                src={Prix}
-              />
-                <p  style={{border: "2px solid black",padding: "0.8rem ",fontWeight: 700, marginBottom:0}}>
-                A Proud Third Place Finish in the Hackathon Challenge</p>
-                <div style={{border:"2px solid black",borderTop:"none"}}>
+        <div>
+          <div className="about-container">
+            <div className="about-img-container">
+              <div className="about-img-inside">
+                <img alt="Profile Pic" className="about-img" src={Prix} />
+                <p
+                  style={{
+                    border: "2px solid black",
+                    padding: "0.8rem ",
+                    fontWeight: 700,
+                    marginBottom: 0,
+                  }}
+                >
+                  A Proud Third Place Finish in the Hackathon Challenge
+                </p>
+                <div style={{ border: "2px solid black", borderTop: "none" }}>
                   <p> Mobile App prototype whit React Native</p>
                   <p>
-                    Projet React Native avec API Twitter et ChatGPT. 
-                    Développement front-end, intégration d'API, logique d'application.
-                    Lauréat du Troisième Prix en hackathon.</p>
+                    Projet React Native avec API Twitter et ChatGPT.
+                    Développement front-end, intégration d'API, logique
+                    d'application. Lauréat du Troisième Prix en hackathon.
+                  </p>
                 </div>
+              </div>
             </div>
+            <div className="about-content tj">
+              <h2 className="section-title-about white pc ">ABOUT ME</h2>
+              <p className="f4 white">
+                Hey there! 👋 I'm a devoted web developer currently on an
+                exciting journey to earn my informatics degree at ESGI in the
+                vibrant city of Toulouse, France. My heart beats in code,
+                particularly in the realms of{" "}
+                <strong style={{ color: "black" }}>
+                  {" "}
+                  JavaScript, React, and CSS.
+                </strong>
+                <br />
+                <br />
+                Despite officially being in my first year at ESGI, my love
+                affair with web development started way before that. For over a
+                year, I immersed myself in the world of JavaScript, dedicating
+                countless hours to mastering the art of React. I've gone beyond
+                the basics, diving into projects involving{" "}
+                <strong style={{ color: "black" }}>
+                  {" "}
+                  React, MySQL, Node.js,
+                </strong>{" "}
+                and even dancing with{" "}
+                <strong style={{ color: "black" }}> databases.</strong>
+                <br />
+                <br />
+                Originating from the beautiful land of Ecuador, I'm now
+                embracing life as a foreign student in Toulouse. Languages?
+                Well, I'm a linguistic enthusiast. Fluent in{" "}
+                <strong style={{ color: "black" }}>Spanish</strong> and{" "}
+                <strong style={{ color: "black" }}>English</strong>, notions in{" "}
+                <strong style={{ color: "black" }}>Russians</strong>, with a
+                growing fluency in{" "}
+                <strong style={{ color: "black" }}>French</strong>—because,
+                let's face it, coding languages aren't the only ones worth
+                conquering.
+              </p>
+              <span className="pt3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="f6 link white"
+                  href={ResumeFR}
+                  style={{
+                    border: "2px solid #fff",
+                    padding: "0.8rem 1.6rem",
+                    fontWeight: 700,
+                  }}
+                >
+                  Check Resume
+                </a>
+              </span>
+            </div>
+            {/* Second Part */}
           </div>
-          <div className="about-content tj">
-        <h2 className="section-title-about white pc">ABOUT ME</h2>
-            <p className="f4 white">
-              I'm a passionate web developer with a strong foundation in JavaScript, React, and CSS. 
-              My focus is on pursuing an informatics degree at ESGI in Toulouse, France.
-              Specializing in Web development and Cybersecurity.
-              I've honed my skills, especially in React.js, allowing me to create dynamic and responsive web interfaces efficiently.
-              <br/>
-              <br/>
-              In addition to my technical prowess, I'm multilingual, fluent in Spanish and English, enhancing my ability to collaborate across diverse teams.
-              With previous experience in sales and real estate, I bring strong communication and customer service skills to the tech industry.
-              <br/>
-              <br/>
-              Eager to contribute my expertise, I'm excited to take on new challenges and innovative projects.
-              My dedication, proficiency in React.js, and multilingual capabilities make me a valuable asset in the technology field.
-            </p>
-            <span className="pt3"> 
-              <a
-                rel="noreferrer"
-                target="_blank"
-                className="f6 link white"
-                href={ResumeFR}
-                style={{
-                  border: "2px solid #fff",
-                  padding: "0.8rem 1.6rem",
-                  fontWeight: 700,
-                }}
-              >
-                Check Resume
-              </a>
-            </span>
+          <div>
+            <div className="about-container-2">
+              <div className="about-img-container-2">
+                <div className="about-img-inside-2">
+                  <img alt="Profile Pic" className="about-img-2" src={Prix} />
+                  <p
+                    style={{
+                      border: "2px solid black",
+                      padding: "0.8rem ",
+                      fontWeight: 700,
+                      marginBottom: 0,
+                    }}
+                  >
+                    A Proud Third Place Finish in the Hackathon Challenge
+                  </p>
+                  <div style={{ border: "2px solid black", borderTop: "none" }}>
+                    <p> Mobile App prototype whit React Native</p>
+                    <p>
+                      Projet React Native avec API Twitter et ChatGPT.
+                      Développement front-end, intégration d'API, logique
+                      d'application. Lauréat du Troisième Prix en hackathon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="about-content-2 tj">
+                <h2 className="section-title-about-2 white pc ">ABOUT ME</h2>
+                <p className="f4 white">
+                  Hey there! 👋 I'm a devoted web developer currently on an
+                  exciting journey to earn my informatics degree at ESGI in the
+                  vibrant city of Toulouse, France. My heart beats in code,
+                  particularly in the realms of{" "}
+                  <strong style={{ color: "black" }}>
+                    {" "}
+                    JavaScript, React, and CSS.
+                  </strong>
+                  <br />
+                  <br />
+                  Despite officially being in my first year at ESGI, my love
+                  affair with web development started way before that. For over
+                  a year, I immersed myself in the world of JavaScript,
+                  dedicating countless hours to mastering the art of React. I've
+                  gone beyond the basics, diving into projects involving{" "}
+                  <strong style={{ color: "black" }}>
+                    {" "}
+                    React, MySQL, Node.js,
+                  </strong>{" "}
+                  and even dancing with{" "}
+                  <strong style={{ color: "black" }}> databases.</strong>
+                  <br />
+                  <br />
+                  Originating from the beautiful land of Ecuador, I'm now
+                  embracing life as a foreign student in Toulouse. Languages?
+                  Well, I'm a linguistic enthusiast. Fluent in{" "}
+                  <strong style={{ color: "black" }}>Spanish</strong> and{" "}
+                  <strong style={{ color: "black" }}>English</strong>, notions
+                  in <strong style={{ color: "black" }}>Russians</strong>, with
+                  a growing fluency in{" "}
+                  <strong style={{ color: "black" }}>French</strong>—because,
+                  let's face it, coding languages aren't the only ones worth
+                  conquering.
+                </p>
+                <span className="pt3">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    className="f6 link white"
+                    href={ResumeFR}
+                    style={{
+                      border: "2px solid #fff",
+                      padding: "0.8rem 1.6rem",
+                      fontWeight: 700,
+                    }}
+                  >
+                    Check Resume
+                  </a>
+                </span>
+              </div>
+              {/* Second Part */}
+            </div>
+            {/* End Second Part */}
           </div>
         </div>
       </div>
