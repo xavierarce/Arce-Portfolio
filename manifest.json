@@ -3,19 +3,19 @@
   "name": "Xavier Arce's Portfolio",
   "icons": [
     {
-      "src": "MainIcon.png",
+      "src": "FavIcon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "FavIcon.ico",
       "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
       "src": "MainIcon.png",
       "sizes": "64x64",
-      "type": "image/png"
-    },
-    {
-      "src": "MainIcon.png",
-      "sizes": "64x64",
-      "type": "image/png"
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
