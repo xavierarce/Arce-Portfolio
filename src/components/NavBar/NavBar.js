@@ -4,7 +4,7 @@ import "./NavBar.css";
 const HeaderMainfront = ( {onAboutClick, onMainClick,onProjectClick,onContactClick}) => {
 
   return (
-      <nav>
+      <nav className="NavBar">
         <ul className="List">
           <li className="Item">
             <a href="#home" onClick={onMainClick}>Home</a>

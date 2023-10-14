@@ -19,7 +19,7 @@ const socialContacts = [
 
 const ContactForm = () => {
   return (
-    <div class="background nalo">
+    <div class="ContactForm background nalo">
       <div class="Contactcontainer">
         <div class="screen">
           <div class="screen-header"></div>

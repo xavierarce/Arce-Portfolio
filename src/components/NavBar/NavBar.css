@@ -1,7 +1,4 @@
-/*  New Bar */
-
-
-ul {
+.NavBar ul {
   height: 8.5%;
   position: fixed;
   top: 0;
@@ -21,11 +18,11 @@ ul {
   z-index: 1000; /* Set a high z-index value */
 }
 
-li {
+.NavBar li {
   float: left;
 }
 
-li a {
+.NavBar li a {
   display: block;
   color: black;
   text-align: center;
@@ -33,17 +30,17 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.NavBar li a:hover:not(.active) {
   background-color: rgba(128, 128, 128, 0.2);
   border-radius: 0%;
 }
 
-.active {
+.NavBar .active {
   border-radius: 0%;
   padding: 1em 2em 1em 2em;
 }
 
-.active:hover{
+.NavBar .active:hover{
   background-color: rgba(128, 128, 128, 0.2);
   border-radius: 0%;
 }

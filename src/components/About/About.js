@@ -3,6 +3,7 @@ import "./About.css";
 // import profileImage from "./profile.png";
 import Prix from "./Files About/Prix.png";
 import ResumeFR from "./Files About/Xavier Arce FR 04-10.pdf";
+import TimeLine from "./TimeLine/TimeLine";
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
                 </p>
                 <div style={{ border: "2px solid black", borderTop: "none" }}>
                   <p> Mobile App prototype whit React Native</p>
-                  <p>
+                  <p> 
                     Projet React Native avec API Twitter et ChatGPT.
                     Développement front-end, intégration d'API, logique
                     d'application. Lauréat du Troisième Prix en hackathon.
@@ -88,7 +89,8 @@ const About = () => {
               </span>
             </div>
             {/* Second Part */}
-          </div>
+            <TimeLine/>
+          {/* </div>
           <div>
             <div className="about-container-2">
               <div className="about-img-container-2">
@@ -167,8 +169,7 @@ const About = () => {
                   </a>
                 </span>
               </div>
-              {/* Second Part */}
-            </div>
+            </div> */}
             {/* End Second Part */}
           </div>
         </div>
