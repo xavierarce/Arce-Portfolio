@@ -57,20 +57,22 @@
   margin-bottom: 2rem;
 }
 
+/* ! PHONE */
 @media only screen and (max-width: 400px) {
-  .about-container {
+  .contenedor-TotalAbout{
+    padding-top: 1.2rem;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: initial;
   }
-
   .about-img-container {
     width: 80%;
-    align-items: center;
+    
   }
 
   .about-img-inside p {
     font-size: 0.62rem;
-    font-weight: 500;
+    font-weight: 600;
     max-width: 30rem;
   }
 
@@ -80,6 +82,7 @@
     height: auto;
     max-width: 600px;
     margin-bottom: 0rem;
+    
   }
 
   .section-title {
@@ -100,6 +103,7 @@
   }
   .about-content p {
     font-size: 0.8rem;
+    
   }
   .pc {
     display: none;
@@ -107,6 +111,7 @@
   .phone {
     display: block;
     margin-top: 0;
+    
   }
 }
 

@@ -109,6 +109,9 @@
 }
 
 @media screen and (max-width: 520px) {
+  .ContactForm{
+    padding-top:3rem;
+  }
   .screen-body {
     flex-direction: column;
   }

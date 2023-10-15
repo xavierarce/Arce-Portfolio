@@ -9,8 +9,7 @@ const About = () => {
     <div>
       <section id="about" className="about-section nalo">
         <div className="contenedor-TotalAbout centrado">
-          <h2 className="section-title-about white phone">ABOUT dsdME</h2>
-          <div className="BellowPhone"></div>
+          <h2 className="section-title-about white phone">ABOUT</h2>
           <div className="about-container">
             <div className="about-img-container">
               <div className="about-img-inside">

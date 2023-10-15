@@ -15,7 +15,6 @@
 
 .Texto{
   font-size: 3em; 
-
 }
 
 .skills-mainfront{
@@ -61,10 +60,14 @@
 
 
 @media only screen and (max-width: 400px) {  
+  #hero{
+    padding-top: 1.5rem;
+    min-height: 100vh;
+  }
   .Texto {
     /* background-color: aqua; */
-    font-size: 1.75em; 
-    line-height: 1.25;
+    font-size: 1.55em; 
+    line-height: 1.55;
     text-align: center;
     margin-bottom: 1em;
   }
