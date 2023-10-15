@@ -1,19 +1,5 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-body,
-button,
-input {
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 1.4px;
-}
-
-.background {
+.ContactForm {
   display: flex;
   min-height: 100vh;
 }

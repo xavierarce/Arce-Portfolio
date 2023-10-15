@@ -1,16 +1,16 @@
-import React from "react";
 import "./About.css";
 // import profileImage from "./profile.png";
 import Prix from "./Files About/Prix.png";
 import ResumeFR from "./Files About/Xavier Arce FR 04-10.pdf";
-import TimeLine from "./TimeLine/TimeLine";
+import TimeLine from "./TimeLine";
 
 const About = () => {
   return (
-    <section id="about" className="hero about-section nalo">
-      <div className="contenedor-TotalAbout centrado">
-        <h2 className="section-title-about white phone">ABOUT ME</h2>
-        <div>
+    <div>
+      <section id="about" className="about-section nalo">
+        <div className="contenedor-TotalAbout centrado">
+          <h2 className="section-title-about white phone">ABOUT dsdME</h2>
+          <div className="BellowPhone"></div>
           <div className="about-container">
             <div className="about-img-container">
               <div className="about-img-inside">
@@ -27,7 +27,7 @@ const About = () => {
                 </p>
                 <div style={{ border: "2px solid black", borderTop: "none" }}>
                   <p> Mobile App prototype whit React Native</p>
-                  <p> 
+                  <p>
                     Projet React Native avec API Twitter et ChatGPT.
                     Développement front-end, intégration d'API, logique
                     d'application. Lauréat du Troisième Prix en hackathon.
@@ -88,14 +88,13 @@ const About = () => {
                 </a>
               </span>
             </div>
-            {/* Second Part */}
-            <TimeLine/>
-          
-            {/* End Second Part */}
+            {/* <TimeLine/> */}
+
           </div>
+
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

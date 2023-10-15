@@ -9,14 +9,22 @@
 }
 
 .nalo {
-  background-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254));
+  background-image: linear-gradient(
+    to right,
+    rgb(15, 202, 44),
+    rgb(68, 175, 254)
+  );
 }
 
 .nalo-words {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, rgb(15, 202, 44), rgb(68, 175, 254));
+  background-image: linear-gradient(
+    to right,
+    rgb(15, 202, 44),
+    rgb(68, 175, 254)
+  );
   position: relative; /* Set position to relative */
   z-index: 1; /* Ensure the button is above other elements */
 }
@@ -29,9 +37,11 @@
 }
 .centrado {
   max-width: 1305px; /* Adjust the max-width value as needed */
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .contentApp {
   flex: 1; /* Make the content div take the remaining vertical space */
+  height: 100vh; /* Set the height to 100% */
+
 }

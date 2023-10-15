@@ -1,23 +1,27 @@
-import React from "react";
-import "./NavBar.css";
+import './NavBar.css'
 
-const HeaderMainfront = ( {onAboutClick, onMainClick,onProjectClick,onContactClick}) => {
-
+const NavBar = ({ onAboutClick,  onHomeClick,  onProjectsClick,onContactClick}) => {
   return (
       <nav className="NavBar">
         <ul className="List">
           <li className="Item">
-            <a href="#home" onClick={onMainClick}>Home</a>
+            <a href="#home" onClick={onHomeClick}>
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about" onClick={onAboutClick}>About</a>
+            <a href="#about" onClick={onAboutClick}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#projects" onClick={onProjectClick}>Projects</a>
+            <a href="#projects" onClick={onProjectsClick}>
+              Projects
+            </a>
           </li>
           <li style={{ float: "right" }}>
             <a className="active" href="#contact" onClick={onContactClick}>
-            Contact
+              Contact
             </a>
           </li>
         </ul>
@@ -25,4 +29,4 @@ const HeaderMainfront = ( {onAboutClick, onMainClick,onProjectClick,onContactCli
   );
 };
 
-export default HeaderMainfront;
+export default NavBar;

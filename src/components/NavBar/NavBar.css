@@ -1,4 +1,6 @@
+
 .NavBar ul {
+  box-sizing: border-box;
   height: 8.5%;
   position: fixed;
   top: 0;
