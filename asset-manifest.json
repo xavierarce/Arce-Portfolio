@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.136d8f91.css",
-    "main.js": "/Arce-Portfolio/static/js/main.398a98a1.js",
+    "main.css": "/Arce-Portfolio/static/css/main.3e23ad21.css",
+    "main.js": "/Arce-Portfolio/static/js/main.21eff71b.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/Prix.png": "/Arce-Portfolio/static/media/Prix.5accc8de3df59d6bf89b.png",
     "static/media/ECommerce.png": "/Arce-Portfolio/static/media/ECommerce.381d191e66e4f195c977.png",
@@ -23,12 +23,12 @@
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.136d8f91.css.map": "/Arce-Portfolio/static/css/main.136d8f91.css.map",
-    "main.398a98a1.js.map": "/Arce-Portfolio/static/js/main.398a98a1.js.map",
+    "main.3e23ad21.css.map": "/Arce-Portfolio/static/css/main.3e23ad21.css.map",
+    "main.21eff71b.js.map": "/Arce-Portfolio/static/js/main.21eff71b.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.136d8f91.css",
-    "static/js/main.398a98a1.js"
+    "static/css/main.3e23ad21.css",
+    "static/js/main.21eff71b.js"
   ]
 }
