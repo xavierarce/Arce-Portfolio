@@ -28,7 +28,7 @@ function App() {
       <NavBar {...clickHandlers} />
       <div className="contentApp">
         {page === "Home" ? (
-          <Home />
+          <Home {...clickHandlers }/>
         ) : page === "About" ? (
           <About />
         ) : page === "Projects" ? (
