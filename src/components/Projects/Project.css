@@ -9,14 +9,14 @@
   pointer-events: none;
 }
 
-.project-icons-img{
+.project-icons-img {
   width: 3em;
   height: 3em;
   max-width: auto; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
   max-height: auto; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
 }
 
-.entire-project{
+.entire-project {
   /* background-color: green; */
   border-bottom: 2px solid black;
   padding-bottom: 1em;
@@ -27,7 +27,7 @@
   align-items: center;
   justify-content: center;
 }
-.info-project{
+.info-project {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
@@ -36,24 +36,24 @@
   height: 100%;
   width: 50%;
 }
-.project-wrapper__text{
+.project-wrapper__text {
   /* background-color: lightblue; */
-  width: 100%; 
+  width: 100%;
   text-align: center; /* Center text within the container */
 }
 /* .project-text{
   background-color: bisque;
 } */
 
-.project-text p{
+.project-text p {
   /* background-color: bisque; */
-  line-height:1.25;
+  line-height: 1.25;
   margin-bottom: 1em;
   width: 90%;
   justify-content: center;
   margin: 0 auto;
 }
-.skills{
+.skills {
   display: flex;
   /* background-color: black; */
   justify-content: center;
@@ -70,7 +70,7 @@
   border: 2px solid black;
   padding: 0.8rem 1.6rem;
   font-weight: 700;
-  transition: opacity 0.20s ease-in;
+  transition: opacity 0.2s ease-in;
   margin: 0 auto; /* Center the element horizontally */
   width: fit-content;
 }
@@ -78,12 +78,12 @@
   opacity: 0.5; /* Adjust as needed */
 }
 
-.photo-project{
+.photo-project {
   /* background-color: azure; */
   width: 50%;
 }
 
-.photo-inside-img{
+.photo-inside-img {
   /* background-color: #142352; */
   width: 85%;
 }
@@ -93,8 +93,12 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, rgb(231, 95, 51), rgb(12, 155, 150));
-  font-size:2.25rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(231, 95, 51),
+    rgb(12, 155, 150)
+  );
+  font-size: 2.25rem;
   display: inline-block;
 }
 
@@ -103,8 +107,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, rgb(147, 249, 148), rgb(87, 0, 245));
-  font-size:2.25rem;
+  background-image: linear-gradient(to right, rgb(176, 186, 179), rgb(0, 0, 0));
+  font-size: 2.25rem;
   display: inline-block;
 }
 .pj-LG {
@@ -112,8 +116,12 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, rgb(238, 87, 42), rgb(97, 169, 250));
-  font-size:2.25rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 87, 42),
+    rgb(97, 169, 250)
+  );
+  font-size: 2.25rem;
   display: inline-block;
 }
 .pj-RF {
@@ -121,14 +129,13 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(90deg,#142352,#10d991);
-  font-size:2.25rem;
+  background-image: linear-gradient(90deg, #142352, #10d991);
+  font-size: 2.25rem;
   display: inline-block;
 }
 
-
 @media screen and (max-width: 500px) {
-  .entire-project{
+  .entire-project {
     /* background-color: green; */
     display: flex;
     min-height: min-content;
@@ -138,7 +145,7 @@
     justify-content: center;
   }
 
-  .info-project{
+  .info-project {
     /* background-color: red; */
     display: flex;
     flex-direction: column;
@@ -148,28 +155,27 @@
     width: 100%;
   }
 
-  .photo-project{
+  .photo-project {
     /* background-color: azure; */
     width: 100%;
   }
-  
-  .photo-inside-img{
+
+  .photo-inside-img {
     /* background-color: #142352; */
     width: 90%;
   }
 
-  .seeLive{
-    margin-bottom: 2em ;
+  .seeLive {
+    margin-bottom: 2em;
   }
 
-  .project-text p{
+  .project-text p {
     /* background-color: bisque; */
-    line-height:1.35;
-    font-size: 0.90em;
+    line-height: 1.35;
+    font-size: 0.9em;
     margin-bottom: 1em;
     width: 85%;
     justify-content: center;
     margin: 0 auto;
   }
 }
-

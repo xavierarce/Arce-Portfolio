@@ -21,9 +21,9 @@ const  OnCourseProjectsComponent = ({ className, title, description, skills, liv
               </Tilt>
             ))}
           </div>
-          <p rel="noreferrer" target="_blank"  className="seeLive">
+          <a rel="noreferrer" target="_blank" href={liveLink} className="seeLive">
             En Course*
-          </p>
+          </a>
         </div>
       </div>
       <div className="photo-project">

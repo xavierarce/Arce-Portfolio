@@ -12,7 +12,7 @@ const iconsProjectEC=[ReactJs,JS,Firebase,GraphQL,TypeScript];
 const onCourseProjects=[
     {
       className: 'EC',
-      title: 'Site E-Commerce',
+      title: 'Arce Crown Site',
       description: [
         'React, Firebase, Redux Saga, Hooks, GraphQL, TypeScript.',
         'Utilisation de Redux pour la gestion de l\'état et paiements via Stripe.',
@@ -20,7 +20,7 @@ const onCourseProjects=[
       ],
       skills: iconsProjectEC,
       abilities: 'ReactJs Firebase Javascrip GraphQL TypeScript',
-      liveLink: 'https://xavierarce.github.io/Random-Generator/',
+      liveLink: 'https://arce-crown-site.netlify.app/',
       image: Ecommerce,
     },
     // Add more projects as needed
