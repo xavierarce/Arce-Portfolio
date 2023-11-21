@@ -38,7 +38,8 @@ class Projects extends Component{
         desc.toLowerCase().includes(this.state.searchField.toLowerCase())
       );
     
-      return titleMatch || abilitiesMatch || descriptionMatch;
+      return titleMatch || abilitiesMatch ;
+      // return titleMatch || abilitiesMatch || descriptionMatch;
     })}
 
 
