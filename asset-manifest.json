@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.dc7785c2.css",
-    "main.js": "/Arce-Portfolio/static/js/main.837a4fb2.js",
+    "main.css": "/Arce-Portfolio/static/css/main.9f8f29aa.css",
+    "main.js": "/Arce-Portfolio/static/js/main.5027a228.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/Prix.png": "/Arce-Portfolio/static/media/Prix.5accc8de3df59d6bf89b.png",
+    "static/media/Space API Project.png": "/Arce-Portfolio/static/media/Space API Project.0bc53100545894e02c22.png",
     "static/media/profile.png": "/Arce-Portfolio/static/media/profile.741fc4a64cedbc339a29.png",
     "static/media/LinearGradient.png": "/Arce-Portfolio/static/media/LinearGradient.e5fd3fe7f6f4c1fd4a9f.png",
     "static/media/SmartBrain.png": "/Arce-Portfolio/static/media/SmartBrain.db66af61ab0abf738945.png",
@@ -18,17 +19,16 @@
     "static/media/MySQL.png": "/Arce-Portfolio/static/media/MySQL.665ba81caae42662b9f8.png",
     "static/media/Node.js.png": "/Arce-Portfolio/static/media/Node.js.7da25231c76fbc0c9941.png",
     "static/media/ECommerce.png": "/Arce-Portfolio/static/media/ECommerce.1fce0e7f4964d1441069.png",
-    "static/media/Typescript.png": "/Arce-Portfolio/static/media/Typescript.52ea0bc40ba11d507e7d.png",
     "static/media/Firebase.png": "/Arce-Portfolio/static/media/Firebase.e7e0ef005f445039db83.png",
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.dc7785c2.css.map": "/Arce-Portfolio/static/css/main.dc7785c2.css.map",
-    "main.837a4fb2.js.map": "/Arce-Portfolio/static/js/main.837a4fb2.js.map",
+    "main.9f8f29aa.css.map": "/Arce-Portfolio/static/css/main.9f8f29aa.css.map",
+    "main.5027a228.js.map": "/Arce-Portfolio/static/js/main.5027a228.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc7785c2.css",
-    "static/js/main.837a4fb2.js"
+    "static/css/main.9f8f29aa.css",
+    "static/js/main.5027a228.js"
   ]
 }
