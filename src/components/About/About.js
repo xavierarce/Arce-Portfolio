@@ -1,7 +1,7 @@
 import "./About.css";
 // import profileImage from "./profile.png";
 import Prix from "./Files About/Prix.png";
-import ResumeFR from "./Files About/Xavier Arce FR 04-10.pdf";
+import ResumeFR from "./Files About/Xavier Arce - CV 15 OCT.pdf";
 import TimeLine from "./TimeLine";
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
                   A Proud Third Place Finish in the Hackathon Challenge
                 </p>
                 <div style={{ border: "2px solid black", borderTop: "none" }}>
-                  <p> Mobile App prototype whit React Native</p>
+                  <p> Mobile App prototype with React Native</p>
                   <p>
                     Projet React Native avec API Twitter et ChatGPT.
                     Développement front-end, intégration d'API, logique
@@ -43,7 +43,7 @@ const About = () => {
                 particularly in the realms of{" "}
                 <strong style={{ color: "black" }}>
                   {" "}
-                  JavaScript, React, and CSS.
+                  JavaScript, ReactJS, and NodeJS.
                 </strong>
                 <br />
                 <br />
@@ -64,8 +64,7 @@ const About = () => {
                 embracing life as a foreign student in Toulouse. Languages?
                 Well, I'm a linguistic enthusiast. Fluent in{" "}
                 <strong style={{ color: "black" }}>Spanish</strong> and{" "}
-                <strong style={{ color: "black" }}>English</strong>, notions in{" "}
-                <strong style={{ color: "black" }}>Russians</strong>, with a
+                <strong style={{ color: "black" }}>English</strong>, with a
                 growing fluency in{" "}
                 <strong style={{ color: "black" }}>French</strong>—because,
                 let's face it, coding languages aren't the only ones worth

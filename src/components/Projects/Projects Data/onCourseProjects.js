@@ -1,30 +1,29 @@
-import Ecommerce from '../ProjectImages/ECommerce.png';
+import SpaceAPIProject from "../ProjectImages/Space API Project.png";
 
-import ReactJs from '../ICONS/React.png'
-import JS from '../ICONS/JS.png'
-import Firebase from '../ICONS/Firebase.png'
-import GraphQL from '../ICONS/GraphQL_Logo.png'
-import TypeScript from '../ICONS/Typescript.png'
+import MongoDB from "../ICONS/MongoDB.png";
+import Express from "../ICONS/Express.png";
+import Jest from "../ICONS/Jest.png";
+import NodeJS from "../ICONS/Node.js.png";
+import RRouter from "../ICONS/RRouter.png";
 
-const iconsProjectEC=[ReactJs,JS,Firebase,GraphQL,TypeScript];
+const iconsProjectSAP = [NodeJS, Jest, RRouter,Express , MongoDB];
 
+const onCourseProjects = [
+  {
+    className: "SAP",
+    title: "Space API Project (On Course)",
+    description: [
+      "Node.js, Express, Jest, React Router",
+      "Project to Improve Best Practices",
+      "Testing on Jest and SuperTest",
+      "Utilization of Morgan for event logging",
+      "To be added: MongoDB",
+    ],
+    skills: iconsProjectSAP,
+    abilities: "NodeJS Jest Express ReactJs React Router Mongodb",
+    image: SpaceAPIProject,
+  },
+  // Add more projects as needed
+];
 
-const onCourseProjects=[
-    {
-      className: 'EC',
-      title: 'Arce Crown Site',
-      description: [
-        'React, Firebase, Redux Saga, Hooks, GraphQL, TypeScript.',
-        'Utilisation de Redux pour la gestion de l\'état et paiements via Stripe.',
-        'Progressive Web App (PWA) et tests.',
-      ],
-      skills: iconsProjectEC,
-      abilities: 'ReactJs Firebase Javascrip GraphQL TypeScript',
-      liveLink: 'https://arce-crown-site.netlify.app/',
-      image: Ecommerce,
-    },
-    // Add more projects as needed
-  ];
-
-
-export default onCourseProjects
+export default onCourseProjects;

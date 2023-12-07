@@ -39,7 +39,7 @@ function App() {
           <Home /> // Add a fallback component or handle the case where page doesn't match any condition
         )}
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

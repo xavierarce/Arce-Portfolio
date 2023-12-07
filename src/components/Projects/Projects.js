@@ -32,13 +32,13 @@ class Projects extends Component{
 
   filteredProjects = (projects) => {
     return projects.filter((project) => {
-      const titleMatch = project.title.toLowerCase().includes(this.state.searchField.toLowerCase());
+      // const titleMatch = project.title.toLowerCase().includes(this.state.searchField.toLowerCase());
       const abilitiesMatch = project.abilities.toLowerCase().includes(this.state.searchField.toLowerCase());
-      const descriptionMatch = project.description.some((desc) =>
-        desc.toLowerCase().includes(this.state.searchField.toLowerCase())
-      );
+      // const descriptionMatch = project.description.some((desc) =>
+      //   desc.toLowerCase().includes(this.state.searchField.toLowerCase())
+      // );
     
-      return titleMatch || abilitiesMatch ;
+      return abilitiesMatch ;
       // return titleMatch || abilitiesMatch || descriptionMatch;
     })}
 
