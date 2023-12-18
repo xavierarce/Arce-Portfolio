@@ -1,14 +1,47 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './Containers/App';
-import reportWebVitals from './reportWebVitals';
-import 'tachyons'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./Containers/App";
+import reportWebVitals from "./reportWebVitals";
+import "tachyons";
+import { RouterProvider, createHashRouter } from "react-router-dom";
+// import NavBar from "./Components/NavBar/NavBar";
+import Home from "./Components/Home/Home";
+import Projects from "./Components/Projects/Projects";
+import ContactForm from "./Components/Contact/Contact";
+import ErrorPage from "./Routes/ErrorPage";
+import About from "./Components/About/About";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement:<ErrorPage/>,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About/>
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/contact",
+        element: <ContactForm />,
+      },
+    ],
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

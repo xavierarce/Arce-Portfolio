@@ -2,7 +2,7 @@ import "./About.css";
 // import profileImage from "./profile.png";
 import Prix from "./Files About/Prix.png";
 import ResumeFR from "./Files About/Xavier Arce - CV 15 OCT.pdf";
-import TimeLine from "./TimeLine";
+// import TimeLine from "./TimeLine";
 
 const About = () => {
   return (

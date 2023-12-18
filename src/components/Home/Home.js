@@ -5,10 +5,11 @@ import JavaS from "./ICONS/JavaS.png";
 import PostSQL from "./ICONS/PostgreSQL.png";
 import profileImage from "./ICONS/profile.png";
 import Tilt from "react-parallax-tilt";
+import { Link } from "react-router-dom";
 
 import './Home.css'
 
-const Home = ({ onAboutClick }) => {
+const Home = () => {
   const imageSources = [ReactJS, JavaS, PostSQL, ReactNative];
 
   return (
@@ -45,14 +46,9 @@ const Home = ({ onAboutClick }) => {
         </div>
       </div>
       <div className="KnowMeBttn grow centrado">
-        <a
-          rel="noreferrer"
-          className="nalo-words"
-          href="#about"
-          onClick={onAboutClick}
-        >
+        <Link to='about'       >
           Get to know me
-        </a>
+        </Link>
       </div>
     </section>
   );

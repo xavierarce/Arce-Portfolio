@@ -1,33 +1,25 @@
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
-const NavBar = ({
-  onAboutClick,
-  onHomeClick,
-  onProjectsClick,
-  onContactClick,
-}) => {
+const NavBar = () => {
   return (
     <nav className="NavBar">
       <ul className="List">
-        <li className="Item">
-          <a href="#home" onClick={onHomeClick}>
+        <li>
+          <Link className="Item" to="">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#about" onClick={onAboutClick}>
-            About
-          </a>
+          <Link to="about">About</Link>
         </li>
         <li>
-          <a href="#projects" onClick={onProjectsClick}>
-            Projects
-          </a>
+          <Link to="projects">Projects</Link>
         </li>
         <li className="ContactItem">
-          <a className="active" href="#contact" onClick={onContactClick}>
+          <Link className="active" to="contact">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
