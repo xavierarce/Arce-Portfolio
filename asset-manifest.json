@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.9f8f29aa.css",
-    "main.js": "/Arce-Portfolio/static/js/main.4c16d927.js",
+    "main.css": "/Arce-Portfolio/static/css/main.371b1871.css",
+    "main.js": "/Arce-Portfolio/static/js/main.fa1c6564.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/Prix.png": "/Arce-Portfolio/static/media/Prix.5accc8de3df59d6bf89b.png",
     "static/media/Space API Project.png": "/Arce-Portfolio/static/media/Space API Project.0bc53100545894e02c22.png",
@@ -23,12 +23,12 @@
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.9f8f29aa.css.map": "/Arce-Portfolio/static/css/main.9f8f29aa.css.map",
-    "main.4c16d927.js.map": "/Arce-Portfolio/static/js/main.4c16d927.js.map",
+    "main.371b1871.css.map": "/Arce-Portfolio/static/css/main.371b1871.css.map",
+    "main.fa1c6564.js.map": "/Arce-Portfolio/static/js/main.fa1c6564.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f8f29aa.css",
-    "static/js/main.4c16d927.js"
+    "static/css/main.371b1871.css",
+    "static/js/main.fa1c6564.js"
   ]
 }
