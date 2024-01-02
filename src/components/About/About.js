@@ -1,7 +1,7 @@
 import "./About.css";
 // import profileImage from "./profile.png";
-import Prix from "./Files About/Prix.png";
-import ResumeFR from "./Files About/Xavier Arce - CV 15 OCT.pdf";
+import Prix from "./Files About/Prix-min.png";
+import ResumeFR from "./Files About/Xavier Arce - 2024.pdf";
 // import TimeLine from "./TimeLine";
 
 const About = () => {
@@ -9,11 +9,11 @@ const About = () => {
     <div>
       <section id="about" className="about-section nalo">
         <div className="contenedor-TotalAbout centrado">
-          <h2 className="section-title-about white phone">ABOUT</h2>
+          <h2 className="section-title-about white phone">À PROPOS</h2>
           <div className="about-container">
             <div className="about-img-container">
               <div className="about-img-inside">
-                <img alt="Profile Pic" className="about-img" src={Prix} />
+                  <img alt="Profile Pic" className="about-img" src={Prix} />
                 <p
                   style={{
                     border: "2px solid black",
@@ -22,10 +22,10 @@ const About = () => {
                     marginBottom: 0,
                   }}
                 >
-                  A Proud Third Place Finish in the Hackathon Challenge
+                  Une fière troisième place au défi Hackathon
                 </p>
                 <div style={{ border: "2px solid black", borderTop: "none" }}>
-                  <p> Mobile App prototype with React Native</p>
+                  <p> Prototype d'application mobile avec React Native</p>
                   <p>
                     Projet React Native avec API Twitter et ChatGPT.
                     Développement front-end, intégration d'API, logique
@@ -35,40 +35,28 @@ const About = () => {
               </div>
             </div>
             <div className="about-content tj">
-              <h2 className="section-title-about white pc ">ABOUT ME</h2>
+              <h2 className="section-title-about white pc ">À PROPOS DE MOI</h2>
               <p className="f4 white">
-                Hey there! 👋 I'm a devoted web developer currently on an
-                exciting journey to earn my informatics degree at ESGI in the
-                vibrant city of Toulouse, France. My heart beats in code,
-                particularly in the realms of{" "}
+                Salut là-bas ! 👋 Je suis un développeur web dévoué actuellement en train de suivre un parcours passionnant pour obtenir mon diplôme d'informatique à l'ESGI dans la ville dynamique de Toulouse, en France. Mon cœur bat dans le code, notamment dans les domaines de{" "}
                 <strong style={{ color: "black" }}>
                   {" "}
-                  JavaScript, ReactJS, and NodeJS.
+                  JavaScript, ReactJS et NodeJS.
                 </strong>
                 <br />
                 <br />
-                Despite officially being in my first year at ESGI, my love
-                affair with web development started way before that. For over a
-                year, I immersed myself in the world of JavaScript, dedicating
-                countless hours to mastering the art of React. I've gone beyond
-                the basics, diving into projects involving{" "}
+                Bien que je sois officiellement en première année à l'ESGI, ma passion pour le développement web a commencé bien avant cela. Pendant plus d'un an, je me suis plongé dans le monde de JavaScript, consacrant d'innombrables heures à maîtriser l'art de React. J'ai dépassé les bases, plongeant dans des projets impliquant{" "}
                 <strong style={{ color: "black" }}>
                   {" "}
-                  React, MySQL, Node.js,
+                  React, MongoDB, Node.js,
                 </strong>{" "}
-                and even dancing with{" "}
-                <strong style={{ color: "black" }}> databases.</strong>
+                et même dansant avec{" "}
+                <strong style={{ color: "black" }}> les bases de données.</strong>
                 <br />
                 <br />
-                Originating from the beautiful land of Ecuador, I'm now
-                embracing life as a foreign student in Toulouse. Languages?
-                Well, I'm a linguistic enthusiast. Fluent in{" "}
-                <strong style={{ color: "black" }}>Spanish</strong> and{" "}
-                <strong style={{ color: "black" }}>English</strong>, with a
-                growing fluency in{" "}
-                <strong style={{ color: "black" }}>French</strong>—because,
-                let's face it, coding languages aren't the only ones worth
-                conquering.
+                Originaire de la belle terre de l'Équateur, j'embrasse maintenant la vie en tant qu'étudiant étranger à Toulouse. Les langues ? Eh bien, je suis un passionné de linguistique. Couramment en{" "}
+                <strong style={{ color: "black" }}>espagnol</strong> et en{" "}
+                <strong style={{ color: "black" }}>anglais</strong>, avec une fluidité croissante en{" "}
+                <strong style={{ color: "black" }}>français</strong>—parce que, soyons honnêtes, les langages de codage ne sont pas les seuls qui méritent d'être conquis.
               </p>
               <span className="pt3">
                 <a
@@ -82,14 +70,12 @@ const About = () => {
                     fontWeight: 700,
                   }}
                 >
-                  Check Resume
+                  Voir le CV
                 </a>
               </span>
             </div>
             {/* <TimeLine/> */}
-
           </div>
-
         </div>
       </section>
     </div>

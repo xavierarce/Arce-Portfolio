@@ -6,7 +6,7 @@ import FinishedProjectComponent from './Project Components/FinishedProjectCompon
 import FinishedProjects from './Projects Data/finishedProjects.js'
 
 //On Course Projects
-import OnCourseProjectsComponent from "./Project Components/OnCourseProjectsComponent";
+// import OnCourseProjectsComponent from "./Project Components/OnCourseProjectsComponent";
 import onCourseProjects from "./Projects Data/onCourseProjects";
 import SearchBox from "./SearchBox";
 
@@ -44,9 +44,10 @@ class Projects extends Component{
 
 
   render(){
-    const {unFinishedProjectsState,finishedProjectsState} = this.state
+    // const {unFinishedProjectsState,finishedProjectsState} = this.state
+    const {finishedProjectsState} = this.state
 
-    const filteredOnCourseProjects = this.filteredProjects(unFinishedProjectsState)
+    // const filteredOnCourseProjects = this.filteredProjects(unFinishedProjectsState)
 
     const filteredFinishedProjects = this.filteredProjects(finishedProjectsState)
     
@@ -58,9 +59,9 @@ class Projects extends Component{
             <h2 className=" section-title ma4" style={{color:'#272341'}}>Projects</h2>
             <SearchBox onSearchChange={this.onSearchChange}/>
             {/* On Course Porject */} 
-            {filteredOnCourseProjects.map((project, index) => (
+            {/* {filteredOnCourseProjects.map((project, index) => (
               <OnCourseProjectsComponent key={index} {...project} />
-            ))}
+            ))} */}
             {/*  FInished Projects Loop */}
             {filteredFinishedProjects.map((project, index) => (
               <FinishedProjectComponent key={index} {...project} />

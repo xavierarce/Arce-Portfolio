@@ -13,20 +13,20 @@
   width: 100%;
 }
 
-.Texto{
-  font-size: 3em; 
+.Texto {
+  font-size: 3em;
 }
 
-.skills-mainfront{
+.skills-mainfront {
   display: flex;
 }
 
-.icons{
+.icons {
   margin: 1%;
   border-radius: 35%;
 }
 
-.profile{
+.profile {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,37 +36,42 @@
 .profile-img {
   width: 70%;
   max-width: 100%; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
-  height: auto; 
+  height: auto;
   max-width: 600px;
   border-radius: 1%;
 }
-.mainfront{
+.mainfront {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-/*  f3 b shadow-3 pa3 grow */
-.KnowMeBttn{
-  width: fit-content;
-  font-size: 1.5rem;
-  font-weight:bold;
-  box-shadow:2px 2px 4px 2px rgba( 0, 0, 0, 0.2 );
-  padding: 1rem;
+.homebuttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
 }
 
+/*  f3 b shadow-3 pa3 grow */
+.KnowMeBttn {
+  width: fit-content;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 0;
+}
 
-
-
-@media only screen and (max-width: 400px) {  
-  #hero{
+@media only screen and (max-width: 400px) {
+  #hero {
     padding-top: 1.5rem;
     min-height: 100vh;
   }
   .Texto {
     /* background-color: aqua; */
-    font-size: 1.55em; 
+    font-size: 1.55em;
     line-height: 1.55;
     text-align: center;
     margin-bottom: 1em;
@@ -77,8 +82,6 @@
     justify-content: center;
     margin: 0 auto;
   }
-  
-  
 }
 @media only screen and (min-width: 401px) and (max-width: 1000px) {
   #hero {
@@ -94,10 +97,10 @@
     font-weight: 400;
     width: 100%;
   }
-  
+
   .Texto {
     /* background-color: aqua; */
-    font-size: 1.75em; 
+    font-size: 1.75em;
     text-align: center;
     width: auto;
   }
@@ -108,7 +111,7 @@
     margin: 0 auto;
   }
 
-  .profile{
+  .profile {
     width: 50%;
     max-height: auto;
   }
@@ -116,14 +119,13 @@
   .profile-img {
     width: 60%;
     max-width: 100%; /* Para asegurarte de que la imagen no exceda el ancho del contenedor */
-    height: auto; 
+    height: auto;
     max-width: 600px;
     border-radius: 1%;
   }
 
-  .KnowMeBttn{
-  width: fit-content;
-  font-size: 1em;
+  .KnowMeBttn {
+    width: fit-content;
+    font-size: 1em;
   }
-  
 }

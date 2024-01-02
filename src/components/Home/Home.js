@@ -1,16 +1,17 @@
 import React from "react";
 import ReactJS from "./ICONS/ReactJs.png";
-import ReactNative from "./ICONS/ReactNative.png";
 import JavaS from "./ICONS/JavaS.png";
 import PostSQL from "./ICONS/PostgreSQL.png";
 import profileImage from "./ICONS/profile.png";
+import MongoDB from "./ICONS/MongoDB.png";
+import NodeJs from "./ICONS/Node.js.png";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
-  const imageSources = [ReactJS, JavaS, PostSQL, ReactNative];
+  const imageSources = [ReactJS, MongoDB, NodeJs, PostSQL, JavaS];
 
   return (
     <section id="hero">
@@ -45,10 +46,26 @@ const Home = () => {
           <img alt="Profile Pic" className="profile-img " src={profileImage} />
         </div>
       </div>
-      <div className="KnowMeBttn grow centrado">
-        <Link to='about'       >
-          Get to know me
+      <div className="homebuttons-container">
+        <Link
+          to="projects"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="KnowMeBttn grow centrado nalo-words">
+            Découvrir mes projets !{" "}
+          </div>
         </Link>
+        <Link
+          to="projects"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="KnowMeBttn grow centrado nalo-words">
+          À propos de moi{" "}
+          </div>
+        </Link>
+
+        <div>
+        </div>
       </div>
     </section>
   );

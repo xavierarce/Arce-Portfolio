@@ -7,17 +7,35 @@ import RoboFriends from "../ProjectImages/RoboFriends.png";
 import LinearGradient from "../ProjectImages/LinearGradient.png";
 import SmartBrain from "../ProjectImages/SmartBrain.png";
 import Ecommerce from "../ProjectImages/ECommerce.png";
+import HogarSeguro from "../ProjectImages/HogarSeguro.png";
 import Firebase from "../ICONS/Firebase.png";
 import GraphQL from "../ICONS/GraphQL_Logo.png";
 import RRouter from "../ICONS/RRouter.png";
+import MongoDB from "../ICONS/MongoDB.png";
+import Jest from "../ICONS/Jest.png";
 
 
+
+
+const iconsProjectHS = [ReactJs, Node, MongoDB, Jest , RRouter];
 const iconsProjectEC = [ReactJs, RRouter, Firebase, GraphQL];
 const iconsProjectSB = [JS, ReactJs, MySQL, Node];
 const iconsProjectRF = [JS, ReactJs];
 const iconsProjectLG = [JS, CSS3];
 
 const finishedProjects = [
+  {
+    className: "HS",
+    title: "HogarSeguro",
+    description: [
+      "ReactJs, NodeJs, MongoDB, Jest, React Router",
+      "Développement Full-Stack, expérience utilisateur fluide, gestion efficace en agence.",
+    ],
+    skills: iconsProjectHS,
+    abilities: "ReactJs Javascrip React Router NodeJS MongoDB",
+    liveLink: "https://hogarseguro.netlify.app/",
+    image: HogarSeguro,
+  },
   {
     className: "EC",
     title: "Arce Crown Site",
