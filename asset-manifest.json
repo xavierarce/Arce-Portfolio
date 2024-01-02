@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.50c22e79.css",
+    "main.css": "/Arce-Portfolio/static/css/main.e442e15c.css",
     "main.js": "/Arce-Portfolio/static/js/main.440ca194.js",
     "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
     "static/media/Prix-min.png": "/Arce-Portfolio/static/media/Prix-min.48c51feaa8c9f078971e.png",
@@ -23,12 +23,12 @@
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.50c22e79.css.map": "/Arce-Portfolio/static/css/main.50c22e79.css.map",
+    "main.e442e15c.css.map": "/Arce-Portfolio/static/css/main.e442e15c.css.map",
     "main.440ca194.js.map": "/Arce-Portfolio/static/js/main.440ca194.js.map",
     "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c22e79.css",
+    "static/css/main.e442e15c.css",
     "static/js/main.440ca194.js"
   ]
 }
