@@ -1,44 +1,63 @@
 import ReactJs from "../ICONS/React.png";
 import JS from "../ICONS/JS.png";
-import MySQL from "../ICONS/MySQL.png";
+import PostgreSQL from "../ICONS/PostgreSQL.png";
 import Node from "../ICONS/Node.js.png";
 import CSS3 from "../ICONS/CSS3.png";
 import RoboFriends from "../ProjectImages/RoboFriends.png";
 import LinearGradient from "../ProjectImages/LinearGradient.png";
 import SmartBrain from "../ProjectImages/SmartBrain.png";
 import Ecommerce from "../ProjectImages/ECommerce.png";
+import SpaceAPIProject from "../ProjectImages/Space API Project.png";
 import HogarSeguro from "../ProjectImages/HogarSeguro.png";
 import Firebase from "../ICONS/Firebase.png";
 // import GraphQL from "../ICONS/GraphQL_Logo.png";
 import RRouter from "../ICONS/RRouter.png";
-import MongoDB from "../ICONS/MongoDB.png";
+import MongoDB from "../ICONS/MongoDB.png";import Express from "../ICONS/NodeExpress.png";
+import NodeJS from "../ICONS/Node.js.png";
+
 import Jest from "../ICONS/Jest.png";
 
-
-
-
-const iconsProjectHS = [ReactJs, Node, MongoDB, Jest , RRouter];
+const iconsProjectHS = [  MongoDB,ReactJs, Node, Jest, RRouter];
 const iconsProjectEC = [ReactJs, RRouter, Firebase];
-const iconsProjectSB = [JS, ReactJs, MySQL, Node];
+const iconsProjectSB = [JS, ReactJs, PostgreSQL, Node];
 const iconsProjectRF = [JS, ReactJs];
 const iconsProjectLG = [JS, CSS3];
+const iconsProjectSAP = [MongoDB, NodeJS, Jest, Express ];
 
 const finishedProjects = [
   {
     className: "HS",
-    title: "HogarSeguro",
+    title: "HogarSeguro - MERN stack",
     description: [
+      "MERN Stack",
       "ReactJs, NodeJs, MongoDB, Jest, React Router",
       "Développement Full-Stack, expérience utilisateur fluide, gestion efficace en agence.",
     ],
     skills: iconsProjectHS,
     abilities: "ReactJs Javascrip React Router NodeJS MongoDB",
     liveLink: "https://hogarseguro.netlify.app/",
+    linkText:'See Live',
     image: HogarSeguro,
   },
   {
+    className: "SAP",
+    title: "Space API Project - MERN stack",
+    description: [
+      "Node.js, Express, Jest, React Router",
+      "Optimisation des Meilleures Pratiques",
+      "Tests avec Jest et SuperTest",
+      "Utilisation de Morgan pour le suivi des événements",
+      "MongoDB",
+    ],
+    skills: iconsProjectSAP,
+    abilities: "NodeJS Jest Express ReactJs React Router Mongodb",
+    liveLink: "https://github.com/xavierarce/SpaceProject",
+    linkText:'See Code*',
+    image: SpaceAPIProject,
+  },
+  {
     className: "EC",
-    title: "Arce Crown Site",
+    title: "Arce Crown Site - Firebase Firestore",
     description: [
       "React, Firebase, Redux Saga, Hooks",
       "Utilisation de Redux pour la gestion de l'état et paiements via Stripe.",
@@ -47,21 +66,22 @@ const finishedProjects = [
     skills: iconsProjectEC,
     abilities: "Firebase Javascrip GraphQL React Router TypeScript",
     liveLink: "https://arce-crown-site.netlify.app/",
+    linkText:'See Live',
     image: Ecommerce,
   },
   {
     className: "SB",
-    title: "SmartBrain",
+    title: "SmartBrain - PERN Stack",
     description: [
-      "Front-end developed in React, providing an intuitive and attractive User Interface (UI).",
-      "Integration of an Image Recognition API for accurate recognition.",
-      "Back-end implemented with Node.js and Express, including a custom server.",
-      "Usage of a database to store information of registered users and faces.",
-      "Implementation of a secure authentication system to access the application.",
+      "Front-end React offrant une UI intuitive.",
+      "Intégration API avec NodeJS/Express",
+      "Utilisation de PostgreSQL pour stocker les données",
+      "Authentification sécurisée mise en place.",
     ],
     skills: iconsProjectSB,
     abilities: "JavaScript ReactJS PostgreSQL NodeJs",
-    liveLink: "https://facerrecogntion.onrender.com/",
+    liveLink: "https://facerrecogntion.onrender.com/nnpm",
+    linkText:'See Live',
     image: SmartBrain,
   },
   {
@@ -78,6 +98,7 @@ const finishedProjects = [
     skills: iconsProjectRF,
     abilities: "JavaScript ReactJS",
     liveLink: "https://my-friends-cards.netlify.app/",
+    linkText:'See Live',
     image: RoboFriends,
   },
   {
@@ -91,6 +112,7 @@ const finishedProjects = [
     skills: iconsProjectLG,
     abilities: "JavaScript CSS3",
     liveLink: "https://xavierarce.github.io/Random-Generator/",
+    linkText:'See Live',
     image: LinearGradient,
   },
   // Add more projects as needed

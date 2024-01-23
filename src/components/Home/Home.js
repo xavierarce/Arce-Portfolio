@@ -1,9 +1,10 @@
 import React from "react";
-import ReactJS from "./ICONS/ReactJs.png";
+import ReactJS from "./ICONS/React.png";
 import JavaS from "./ICONS/JavaS.png";
 import PostSQL from "./ICONS/PostgreSQL.png";
 import profileImage from "./ICONS/profile.png";
 import MongoDB from "./ICONS/MongoDB.png";
+import NodeExpress from "./ICONS/NodeExpress.png";
 import NodeJs from "./ICONS/Node.js.png";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
@@ -11,7 +12,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
-  const imageSources = [ReactJS, MongoDB, NodeJs, PostSQL, JavaS];
+  const imageSources = [MongoDB, ReactJS, NodeExpress, NodeJs, PostSQL, JavaS];
 
   return (
     <section id="hero">
@@ -47,25 +48,18 @@ const Home = () => {
         </div>
       </div>
       <div className="homebuttons-container">
-        <Link
-          to="projects"
-          style={{ textDecoration: "none" }}
-        >
+        <Link to="projects" style={{ textDecoration: "none" }}>
           <div className="KnowMeBttn grow centrado nalo-words">
             Découvrir mes projets !{" "}
           </div>
         </Link>
-        <Link
-          to="about"
-          style={{ textDecoration: "none" }}
-        >
+        <Link to="about" style={{ textDecoration: "none" }}>
           <div className="KnowMeBttn grow centrado nalo-words">
-          À propos de moi{" "}
+            À propos de moi{" "}
           </div>
         </Link>
 
-        <div>
-        </div>
+        <div></div>
       </div>
     </section>
   );

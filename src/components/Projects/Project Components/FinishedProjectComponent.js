@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from 'react-parallax-tilt';
 import '../Project.css'
 
-const  FinishedProjectComponent = ({ className, title, description, skills, liveLink, image }) => {
+const  FinishedProjectComponent = ({ className, title, description, skills, liveLink, image , linkText}) => {
   return (
     <div className="entire-project">
       <div className="info-project">
@@ -22,7 +22,7 @@ const  FinishedProjectComponent = ({ className, title, description, skills, live
             ))}
           </div>
           <a rel="noreferrer" target="_blank" href={liveLink} className="seeLive">
-            See Live
+            {linkText}
           </a>
         </div>
       </div>
