@@ -56,7 +56,7 @@ const Home = () => {
           </div>
         </Link>
         <Link
-          to="projects"
+          to="about"
           style={{ textDecoration: "none" }}
         >
           <div className="KnowMeBttn grow centrado nalo-words">

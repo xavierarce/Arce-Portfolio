@@ -9,7 +9,7 @@ import SmartBrain from "../ProjectImages/SmartBrain.png";
 import Ecommerce from "../ProjectImages/ECommerce.png";
 import HogarSeguro from "../ProjectImages/HogarSeguro.png";
 import Firebase from "../ICONS/Firebase.png";
-import GraphQL from "../ICONS/GraphQL_Logo.png";
+// import GraphQL from "../ICONS/GraphQL_Logo.png";
 import RRouter from "../ICONS/RRouter.png";
 import MongoDB from "../ICONS/MongoDB.png";
 import Jest from "../ICONS/Jest.png";
@@ -18,7 +18,7 @@ import Jest from "../ICONS/Jest.png";
 
 
 const iconsProjectHS = [ReactJs, Node, MongoDB, Jest , RRouter];
-const iconsProjectEC = [ReactJs, RRouter, Firebase, GraphQL];
+const iconsProjectEC = [ReactJs, RRouter, Firebase];
 const iconsProjectSB = [JS, ReactJs, MySQL, Node];
 const iconsProjectRF = [JS, ReactJs];
 const iconsProjectLG = [JS, CSS3];
@@ -40,7 +40,7 @@ const finishedProjects = [
     className: "EC",
     title: "Arce Crown Site",
     description: [
-      "React, Firebase, Redux Saga, Hooks, GraphQL",
+      "React, Firebase, Redux Saga, Hooks",
       "Utilisation de Redux pour la gestion de l'état et paiements via Stripe.",
       "Progressive Web App (PWA) et tests.",
     ],
@@ -61,7 +61,7 @@ const finishedProjects = [
     ],
     skills: iconsProjectSB,
     abilities: "JavaScript ReactJS PostgreSQL NodeJs",
-    liveLink: "https://xavierarce.github.io/FACEDETECTOR-APP/",
+    liveLink: "https://facerrecogntion.onrender.com/",
     image: SmartBrain,
   },
   {

@@ -13,7 +13,7 @@ const About = () => {
           <div className="about-container">
             <div className="about-img-container">
               <div className="about-img-inside">
-                  <img alt="Profile Pic" className="about-img" src={Prix} />
+                <img alt="Profile Pic" className="about-img" src={Prix} />
                 <p
                   style={{
                     border: "2px solid black",
@@ -37,26 +37,30 @@ const About = () => {
             <div className="about-content tj">
               <h2 className="section-title-about white pc ">À PROPOS DE MOI</h2>
               <p className="f4 white">
-                Salut là-bas ! 👋 Je suis un développeur web dévoué actuellement en train de suivre un parcours passionnant pour obtenir mon diplôme d'informatique à l'ESGI dans la ville dynamique de Toulouse, en France. Mon cœur bat dans le code, notamment dans les domaines de{" "}
+                Salut ! 👋 Je suis un passionné du développement web, étudiant
+                en informatique à l'ESGI, à Toulouse. . Mon cœur bat pour le
                 <strong style={{ color: "black" }}>
                   {" "}
-                  JavaScript, ReactJS et NodeJS.
+                  MERM Stack : ReactJS
                 </strong>
-                <br />
-                <br />
-                Bien que je sois officiellement en première année à l'ESGI, ma passion pour le développement web a commencé bien avant cela. Pendant plus d'un an, je me suis plongé dans le monde de JavaScript, consacrant d'innombrables heures à maîtriser l'art de React. J'ai dépassé les bases, plongeant dans des projets impliquant{" "}
+                pour le front-end,{" "}
                 <strong style={{ color: "black" }}>
-                  {" "}
-                  React, MongoDB, Node.js,
+                  NodeJS et Express{" "}
                 </strong>{" "}
-                et même dansant avec{" "}
-                <strong style={{ color: "black" }}> les bases de données.</strong>
+                pour des APIs rapides, et
+                <strong style={{ color: "black" }}> MongoDB</strong> pour une
+                scalabilité remarquable.
                 <br />
                 <br />
-                Originaire de la belle terre de l'Équateur, j'embrasse maintenant la vie en tant qu'étudiant étranger à Toulouse. Les langues ? Eh bien, je suis un passionné de linguistique. Couramment en{" "}
-                <strong style={{ color: "black" }}>espagnol</strong> et en{" "}
-                <strong style={{ color: "black" }}>anglais</strong>, avec une fluidité croissante en{" "}
-                <strong style={{ color: "black" }}>français</strong>—parce que, soyons honnêtes, les langages de codage ne sont pas les seuls qui méritent d'être conquis.
+                À 21 ans, originaire de l'Équateur, je suis venu en France pour
+                enrichir mes compétences et m'immerger dans le monde technique.
+                Je parle couramment espagnol, anglais et je progresse en
+                français.
+                <br />
+                <br />
+                Javascript est ma passion, et je me délecte des dernières
+                tendances. Mon amour pour la MERM Stack est constant, prêt à
+                conquérir les défis du marché du travail français.
               </p>
               <span className="pt3">
                 <a
