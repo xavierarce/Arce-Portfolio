@@ -80,7 +80,7 @@ const finishedProjects = [
     ],
     skills: iconsProjectSB,
     abilities: "JavaScript ReactJS PostgreSQL NodeJs",
-    liveLink: "https://facerrecogntion.onrender.com/nnpm",
+    liveLink: "https://facerrecogntion.onrender.com/",
     linkText:'See Live',
     image: SmartBrain,
   },
