@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Project.css";
 
 import FinishedProjectComponent from "./Project Components/FinishedProjectComponent";
-import FinishedProjects from "./Projects Data/finishedProjects.js";
+import dataProjects from "./Projects Data/dataProjects.js";
 
 import SearchBox from "./SearchBox";
 
@@ -16,7 +16,7 @@ class Projects extends Component {
   }
 
   componentDidMount() {
-    this.setState({ finishedProjectsState: FinishedProjects });
+    this.setState({ finishedProjectsState: dataProjects });
   }
 
   onSearchChange = (event) => {
@@ -48,11 +48,6 @@ class Projects extends Component {
               Projects
             </h2>
             <SearchBox onSearchChange={this.onSearchChange} />
-            {/* On Course Porject */}
-            {/* {filteredOnCourseProjects.map((project, index) => (
-              <OnCourseProjectsComponent key={index} {...project} />
-            ))} */}
-            {/*  FInished Projects Loop */}
             {filteredFinishedProjects.map((project, index) => (
               <FinishedProjectComponent key={index} {...project} />
             ))}

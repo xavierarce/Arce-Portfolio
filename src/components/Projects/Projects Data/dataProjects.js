@@ -12,17 +12,18 @@ import HogarSeguro from "../ProjectImages/HogarSeguro.png";
 import Firebase from "../ICONS/Firebase.png";
 // import GraphQL from "../ICONS/GraphQL_Logo.png";
 import RRouter from "../ICONS/RRouter.png";
-import MongoDB from "../ICONS/MongoDB.png";import Express from "../ICONS/NodeExpress.png";
+import MongoDB from "../ICONS/MongoDB.png";
+import Express from "../ICONS/NodeExpress.png";
 import NodeJS from "../ICONS/Node.js.png";
 
 import Jest from "../ICONS/Jest.png";
 
-const iconsProjectHS = [  MongoDB,ReactJs, Node, Jest, RRouter];
+const iconsProjectHS = [MongoDB, ReactJs, Node, Jest, RRouter];
 const iconsProjectEC = [ReactJs, RRouter, Firebase];
 const iconsProjectSB = [JS, ReactJs, PostgreSQL, Node];
 const iconsProjectRF = [JS, ReactJs];
 const iconsProjectLG = [JS, CSS3];
-const iconsProjectSAP = [MongoDB, NodeJS, Jest, Express ];
+const iconsProjectSAP = [MongoDB, NodeJS, Jest, Express];
 
 const finishedProjects = [
   {
@@ -36,7 +37,7 @@ const finishedProjects = [
     skills: iconsProjectHS,
     abilities: "ReactJs Javascrip React Router NodeJS MongoDB",
     liveLink: "https://hogarseguro.netlify.app/",
-    linkText:'See Live',
+    codeLink: "https://github.com/xavierarce/Front-Web-App",
     image: HogarSeguro,
   },
   {
@@ -51,8 +52,7 @@ const finishedProjects = [
     ],
     skills: iconsProjectSAP,
     abilities: "NodeJS Jest Express ReactJs React Router Mongodb",
-    liveLink: "https://github.com/xavierarce/SpaceProject",
-    linkText:'See Code*',
+    codeLink: "https://github.com/xavierarce/SpaceProject",
     image: SpaceAPIProject,
   },
   {
@@ -66,7 +66,7 @@ const finishedProjects = [
     skills: iconsProjectEC,
     abilities: "Firebase Javascrip GraphQL React Router TypeScript",
     liveLink: "https://arce-crown-site.netlify.app/",
-    linkText:'See Live',
+    codeLink: "https://github.com/xavierarce/OnlineStore",
     image: Ecommerce,
   },
   {
@@ -81,7 +81,7 @@ const finishedProjects = [
     skills: iconsProjectSB,
     abilities: "JavaScript ReactJS PostgreSQL NodeJs",
     liveLink: "https://facerrecogntion.onrender.com/",
-    linkText:'See Live',
+    codeLink: "https://github.com/xavierarce/FaceDetectorFront",
     image: SmartBrain,
   },
   {
@@ -98,7 +98,7 @@ const finishedProjects = [
     skills: iconsProjectRF,
     abilities: "JavaScript ReactJS",
     liveLink: "https://my-friends-cards.netlify.app/",
-    linkText:'See Live',
+    codeLink: "https://github.com/xavierarce/my-friends-2",
     image: RoboFriends,
   },
   {
@@ -112,7 +112,8 @@ const finishedProjects = [
     skills: iconsProjectLG,
     abilities: "JavaScript CSS3",
     liveLink: "https://xavierarce.github.io/Random-Generator/",
-    linkText:'See Live',
+    codeLink: "https://github.com/xavierarce/Random-Generator",
+    linkText: "See Live",
     image: LinearGradient,
   },
   // Add more projects as needed
