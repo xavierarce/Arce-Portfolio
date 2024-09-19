@@ -98,7 +98,7 @@ const finishedProjects = [
     skills: iconsProjectRF,
     abilities: "JavaScript ReactJS",
     liveLink: "https://my-friends-cards.netlify.app/",
-    codeLink: "https://github.com/xavierarce/my-friends-2 ",
+    codeLink: "https://github.com/xavierarce/my-friends-2",
     image: RoboFriends,
   },
   {
