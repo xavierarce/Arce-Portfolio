@@ -5,6 +5,7 @@ import PostSQL from "./ICONS/PostgreSQL.png";
 import MongoDB from "./ICONS/MongoDB.png";
 import NodeExpress from "./ICONS/NodeExpress.png";
 import NodeJs from "./ICONS/Node.js.png";
+import Python from "./ICONS/Python.png";
 import xavierImage from "./ICONS/xavier.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
@@ -16,7 +17,15 @@ const tradKey = "Home";
 
 const Home = () => {
   const { translate } = useLanguageContext();
-  const imageSources = [MongoDB, ReactJS, NodeExpress, NodeJs, PostSQL, JavaS];
+  const imageSources = [
+    MongoDB,
+    ReactJS,
+    NodeExpress,
+    NodeJs,
+    PostSQL,
+    JavaS,
+    Python,
+  ];
   const { writeTrad } = translate(tradKey);
 
   return (
