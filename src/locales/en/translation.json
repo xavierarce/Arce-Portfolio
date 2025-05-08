@@ -1,0 +1,37 @@
+{
+  "translation": {
+    "welcome": "Bienvenue",
+    "hello": "Bonjour, le monde !",
+    "NavBar": {
+      "Home": "Home",
+      "Projects": "Projets",
+      "About": "About me",
+      "Contact": "Contact",
+      "Fr": "Fr",
+      "En": "En"
+    },
+    "Home": {
+      "hey_i_am": "Hey, I'm ",
+      "full_stack_web_developer": "Full Stack Web Developer",
+      "discover_my_projects": "Discover my projects",
+      "about_me": "About me"
+    },
+    "Projects": {
+      "Projects": "Projects"
+    },
+    "About": {
+      "about_me": "About me",
+      "prix_du_hackathon": "A proud third place in the Hackathon challenge",
+      "prototype_react": "Mobile app prototype with React Native",
+      "prototype_react_description": "React Native project using the Twitter API and ChatGPT. Front-end development, API integration, application logic. Winner of the Third Prize in the hackathon.",
+      "intro": "My name is",
+      "position": "a full stack developer in a work-study program and a third-year student at ",
+      "specialization": "specializing in software and network development",
+      "current": "Currently working at",
+      "stack": "I build web apps (CRM, ERP, extranets) using ",
+      "and": "and",
+      "projects": "Curious and independent, I've built various projects like a fitness app, an e-commerce platform, and a facial recognition system — with strong skills in data structuring and analysis.",
+      "goals": "Trilingual (Spanish, English, French) and comfortable in international environments, I’m motivated to contribute to Airbus with high-impact, data-driven tools."
+    }
+  }
+}

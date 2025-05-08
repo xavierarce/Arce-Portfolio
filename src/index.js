@@ -5,18 +5,23 @@ import App from "./Containers/App";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import { RouterProvider, createHashRouter } from "react-router-dom";
-// import NavBar from "./Components/NavBar/NavBar";
-import Home from "./Components/Home/Home";
-import Projects from "./Components/Projects/Projects";
-import ContactForm from "./Components/Contact/Contact";
+// import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home";
+import Projects from "./components/Projects/Projects";
+import ContactForm from "./components/Contact/Contact";
 import ErrorPage from "./Routes/ErrorPage";
-import About from "./Components/About/About";
+import About from "./components/About/About";
+import { LanguageProvider } from "./Context/LanguageContext";
 
 const router = createHashRouter([
   {
     path: "/",
-    element: <App />,
-    errorElement:<ErrorPage/>,
+    element: (
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    ),
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -24,7 +29,7 @@ const router = createHashRouter([
       },
       {
         path: "/about",
-        element: <About/>
+        element: <About />,
       },
       {
         path: "/projects",

@@ -1,0 +1,37 @@
+{
+  "translation": {
+    "welcome": "Bienvenue",
+    "hello": "Bonjour, le monde !",
+    "NavBar": {
+      "Home": "Accueil",
+      "Projects": "Projets",
+      "About": "À propos",
+      "Contact": "Contact",
+      "Fr": "Fr",
+      "En": "En"
+    },
+    "Home": {
+      "hey_i_am": "Salut, je suis ",
+      "full_stack_web_developer": "Développeur web full stack",
+      "discover_my_projects": "Découvrez mes projets",
+      "about_me": "À propos de moi"
+    },
+    "Projects": {
+      "Projects": "Projets"
+    },
+    "About": {
+      "about_me": "À propos de moi",
+      "prix_du_hackathon": "Une fière troisième place au défi Hackathon",
+      "prototype_react": "Prototype d'application mobile avec React Native",
+      "prototype_react_description": "Projet React Native avec API Twitter et ChatGPT. Développement front-end, intégration d'API, logique d'application. Lauréat du Troisième Prix en hackathon.",
+      "intro": "Je m'appelle",
+      "position": "développeur full stack en alternance et étudiant en Bac+3 à l’",
+      "specialization": "spécialisation développement logiciel et réseau",
+      "current": "Actuellement chez",
+      "stack": "je développe des applications web (CRM, ERP, extranets) avec ",
+      "and": "et",
+      "projects": "Curieux et autonome, j’ai mené divers projets (app de fitness, e-commerce, reconnaissance faciale), avec un vrai intérêt pour la structuration et l’analyse de données.",
+      "goals": "Trilingue (espagnol, anglais, français) et à l’aise en environnement international, je souhaite contribuer à Airbus via des outils performants et data-driven à fort impact métier."
+    }
+  }
+}

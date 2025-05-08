@@ -2,28 +2,32 @@ import React from "react";
 import ReactJS from "./ICONS/React.png";
 import JavaS from "./ICONS/JavaS.png";
 import PostSQL from "./ICONS/PostgreSQL.png";
-import profileImage from "./ICONS/profile.png";
 import MongoDB from "./ICONS/MongoDB.png";
 import NodeExpress from "./ICONS/NodeExpress.png";
 import NodeJs from "./ICONS/Node.js.png";
+import xavierImage from "./ICONS/xavier.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
+import { useLanguageContext } from "../../Context/LanguageContext";
+
+const tradKey = "Home";
 
 const Home = () => {
+  const { translate } = useLanguageContext();
   const imageSources = [MongoDB, ReactJS, NodeExpress, NodeJs, PostSQL, JavaS];
+  const { writeTrad } = translate(tradKey);
 
   return (
     <section id="hero">
       <div id="hero2" className="mainfront">
         <div className="">
           <h1 className="Texto">
-            Hi! I'm <span className="nalo-words">Xavier Arce</span>
+            {writeTrad("hey_i_am")}
+            <span className="nalo-words">Xavier Arce</span>
             <br />
-            Full Stack Web Developer
-            <br />
-            Crafting Digital Experiences
+            {writeTrad("full_stack_web_developer")}
           </h1>
           <div className="skills-mainfront">
             {imageSources.map((src, index) => (
@@ -44,22 +48,20 @@ const Home = () => {
           </div>
         </div>
         <div className="profile">
-          <img alt="Profile Pic" className="profile-img " src={profileImage} />
+          <img alt="Profile Pic" className="profile-img " src={xavierImage} />
         </div>
       </div>
       <div className="homebuttons-container">
         <Link to="projects" style={{ textDecoration: "none" }}>
           <div className="KnowMeBttn grow centrado nalo-words">
-            Découvrir mes projets !{" "}
+            {writeTrad("discover_my_projects")}
           </div>
         </Link>
         <Link to="about" style={{ textDecoration: "none" }}>
           <div className="KnowMeBttn grow centrado nalo-words">
-            À propos de moi{" "}
+            {writeTrad("about_me")}
           </div>
         </Link>
-
-        <div></div>
       </div>
     </section>
   );

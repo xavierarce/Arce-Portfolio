@@ -52,11 +52,10 @@
 }
 
 @media only screen and (max-width: 400px) {
-
-    .NavBar .List {
+  .NavBar .List {
     display: flex; /* Use flexbox for ordering */
     flex-direction: row; /* Stack items vertically */
-    
+
     font-size: 0.75rem;
   }
 
