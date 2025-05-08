@@ -1,10 +1,16 @@
+import { useLanguageContext } from "../../Context/LanguageContext";
 import "./About.css";
 // import profileImage from "./profile.png";
 import Prix from "./Files About/Prix-min.png";
-import ResumeFR from "./Files About/Xavier Arce - 2024.pdf";
+import ResumeFR from "./Files About/Xavier Arce - Alt Dev.pdf";
 // import TimeLine from "./TimeLine";
 
+const tradKey = "About";
+
 const About = () => {
+  const { translate } = useLanguageContext();
+  const { writeTrad } = translate(tradKey);
+
   return (
     <div>
       <section id="about" className="about-section nalo">
@@ -22,46 +28,43 @@ const About = () => {
                     marginBottom: 0,
                   }}
                 >
-                  Une fière troisième place au défi Hackathon
+                  {writeTrad("prix_du_hackathon")}
                 </p>
                 <div style={{ border: "2px solid black", borderTop: "none" }}>
-                  <p> Prototype d'application mobile avec React Native</p>
-                  <p>
-                    Projet React Native avec API Twitter et ChatGPT.
-                    Développement front-end, intégration d'API, logique
-                    d'application. Lauréat du Troisième Prix en hackathon.
-                  </p>
+                  <p>{writeTrad("prototype_react")}</p>
+                  <p>{writeTrad("prototype_react_description")}</p>
+                  <p></p>
                 </div>
               </div>
             </div>
             <div className="about-content tj">
-              <h2 className="section-title-about white pc ">À PROPOS DE MOI</h2>
+              <h2 className="section-title-about white pc ">
+                {writeTrad("about_me")}
+              </h2>
               <p className="f4 white">
-                Salut ! 👋 Je suis un passionné du développement web, étudiant
-                en informatique à l'ESGI, à Toulouse. . Mon cœur bat pour le
+                {writeTrad("intro")}{" "}
+                <strong style={{ color: "black" }}>Xavier Arce</strong>,{" "}
+                {writeTrad("position")}
+                <strong style={{ color: "black" }}>ESGI Toulouse</strong>,{" "}
+                {writeTrad("specialization")}.
+                <br />
+                <br />
+                {writeTrad("current")}{" "}
+                <strong style={{ color: "black" }}>Strateg In</strong>,{" "}
+                {writeTrad("stack")}
                 <strong style={{ color: "black" }}>
-                  {" "}
-                  MERM Stack : ReactJS
-                </strong>
-                pour le front-end,{" "}
-                <strong style={{ color: "black" }}>
-                  NodeJS et Express{" "}
+                  TypeScript, React.js, Prisma
                 </strong>{" "}
-                pour des APIs rapides, et
-                <strong style={{ color: "black" }}> MongoDB</strong> pour une
-                scalabilité remarquable.
+                {writeTrad("and")}{" "}
+                <strong style={{ color: "black" }}>PostgreSQL</strong>.
                 <br />
                 <br />
-                À 21 ans, originaire de l'Équateur, je suis venu en France pour
-                enrichir mes compétences et m'immerger dans le monde technique.
-                Je parle couramment espagnol, anglais et je progresse en
-                français.
+                {writeTrad("projects")}
                 <br />
                 <br />
-                Javascript est ma passion, et je me délecte des dernières
-                tendances. Mon amour pour la MERM Stack est constant, prêt à
-                conquérir les défis du marché du travail français.
+                {writeTrad("goals")}
               </p>
+
               <span className="pt3">
                 <a
                   rel="noreferrer"
