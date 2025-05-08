@@ -2,10 +2,10 @@ import React from "react";
 import ReactJS from "./ICONS/React.png";
 import JavaS from "./ICONS/JavaS.png";
 import PostSQL from "./ICONS/PostgreSQL.png";
-import profileImage from "./ICONS/profile.png";
 import MongoDB from "./ICONS/MongoDB.png";
 import NodeExpress from "./ICONS/NodeExpress.png";
 import NodeJs from "./ICONS/Node.js.png";
+import xavierImage from "./ICONS/xavier.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 
@@ -48,7 +48,7 @@ const Home = () => {
           </div>
         </div>
         <div className="profile">
-          <img alt="Profile Pic" className="profile-img " src={profileImage} />
+          <img alt="Profile Pic" className="profile-img " src={xavierImage} />
         </div>
       </div>
       <div className="homebuttons-container">
