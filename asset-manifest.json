@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Arce-Portfolio/static/css/main.a14bf1f8.css",
-    "main.js": "/Arce-Portfolio/static/js/main.4b691ca1.js",
-    "static/js/787.fb362f50.chunk.js": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js",
+    "main.css": "/Arce-Portfolio/static/css/main.b197d7db.css",
+    "main.js": "/Arce-Portfolio/static/js/main.816d9ea7.js",
+    "static/js/453.74c482c8.chunk.js": "/Arce-Portfolio/static/js/453.74c482c8.chunk.js",
     "static/media/Prix-min.png": "/Arce-Portfolio/static/media/Prix-min.48c51feaa8c9f078971e.png",
     "static/media/Space API Project.png": "/Arce-Portfolio/static/media/Space API Project.0bc53100545894e02c22.png",
     "static/media/HogarSeguro.png": "/Arce-Portfolio/static/media/HogarSeguro.86f50d1a48c636ad8465.png",
     "static/media/LinearGradient.png": "/Arce-Portfolio/static/media/LinearGradient.e5fd3fe7f6f4c1fd4a9f.png",
-    "static/media/Xavier Arce - 2024.pdf": "/Arce-Portfolio/static/media/Xavier Arce - 2024.46c8232142f95f58d7b5.pdf",
     "static/media/RoboFriends.png": "/Arce-Portfolio/static/media/RoboFriends.c7344d265f5f0cba0cf1.png",
+    "static/media/Xavier Arce - Alt Dev.pdf": "/Arce-Portfolio/static/media/Xavier Arce - Alt Dev.7175182fc73370d7b75e.pdf",
     "static/media/profile.png": "/Arce-Portfolio/static/media/profile.7a3bea05d2eb13442bdd.png",
     "static/media/PostgreSQL.png": "/Arce-Portfolio/static/media/PostgreSQL.e1a0cd2659e9dde63273.png",
     "static/media/CSS3.png": "/Arce-Portfolio/static/media/CSS3.e45638344f12f3855ca0.png",
@@ -19,12 +19,12 @@
     "static/media/JS.png": "/Arce-Portfolio/static/media/JS.d8ae9908fb0939aa70b6.png",
     "static/media/JavaS.png": "/Arce-Portfolio/static/media/JavaS.d8ae9908fb0939aa70b6.png",
     "index.html": "/Arce-Portfolio/index.html",
-    "main.a14bf1f8.css.map": "/Arce-Portfolio/static/css/main.a14bf1f8.css.map",
-    "main.4b691ca1.js.map": "/Arce-Portfolio/static/js/main.4b691ca1.js.map",
-    "787.fb362f50.chunk.js.map": "/Arce-Portfolio/static/js/787.fb362f50.chunk.js.map"
+    "main.b197d7db.css.map": "/Arce-Portfolio/static/css/main.b197d7db.css.map",
+    "main.816d9ea7.js.map": "/Arce-Portfolio/static/js/main.816d9ea7.js.map",
+    "453.74c482c8.chunk.js.map": "/Arce-Portfolio/static/js/453.74c482c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a14bf1f8.css",
-    "static/js/main.4b691ca1.js"
+    "static/css/main.b197d7db.css",
+    "static/js/main.816d9ea7.js"
   ]
 }
