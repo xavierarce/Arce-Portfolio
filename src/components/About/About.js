@@ -50,10 +50,19 @@ const About = () => {
                 <br />
                 <br />
                 {writeTrad("current")}{" "}
-                <strong style={{ color: "black" }}>Strateg In</strong>,{" "}
+                <strong style={{ color: "black" }}>
+                  <a
+                    href="https://www.linkedin.com/company/strateg-in-company/posts/?feedView=all"
+                    target="_blank"
+                    style={{ color: "black" }}
+                    rel="noopener noreferrer"
+                  >
+                    Strateg In
+                  </a>
+                </strong>{" "}
                 {writeTrad("stack")}
                 <strong style={{ color: "black" }}>
-                  TypeScript, React.js, Prisma
+                  TypeScript, React.js, Prisma, MongoDB,
                 </strong>{" "}
                 {writeTrad("and")}{" "}
                 <strong style={{ color: "black" }}>PostgreSQL</strong>.
