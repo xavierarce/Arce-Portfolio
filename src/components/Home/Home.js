@@ -38,6 +38,7 @@ const Home = () => {
             <br />
             {writeTrad("full_stack_web_developer")}
           </h1>
+          <h3>{writeTrad("passionate_about")}</h3>
           <div className="skills-mainfront">
             {imageSources.map((src, index) => (
               <Tilt
