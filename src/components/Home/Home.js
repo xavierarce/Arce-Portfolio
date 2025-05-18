@@ -6,6 +6,7 @@ import MongoDB from "./ICONS/MongoDB.png";
 import NodeExpress from "./ICONS/NodeExpress.png";
 import NodeJs from "./ICONS/Node.js.png";
 import Python from "./ICONS/Python.png";
+import Flask from "./ICONS/Flask.png";
 import xavierImage from "./ICONS/xavier.jpg";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
@@ -25,6 +26,7 @@ const Home = () => {
     PostSQL,
     JavaS,
     Python,
+    Flask,
   ];
   const { writeTrad } = translate(tradKey);
 

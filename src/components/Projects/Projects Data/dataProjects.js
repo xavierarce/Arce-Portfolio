@@ -9,12 +9,15 @@ import SmartBrain from "../ProjectImages/SmartBrain.png";
 import Ecommerce from "../ProjectImages/ECommerce.png";
 import SpaceAPIProject from "../ProjectImages/Space API Project.png";
 import HogarSeguro from "../ProjectImages/HogarSeguro.png";
+import DigitalCostingImage from "../ProjectImages/DigitalCostingImage.png";
 import Firebase from "../ICONS/Firebase.png";
 // import GraphQL from "../ICONS/GraphQL_Logo.png";
 import RRouter from "../ICONS/RRouter.png";
 import MongoDB from "../ICONS/MongoDB.png";
 import Express from "../ICONS/NodeExpress.png";
 import NodeJS from "../ICONS/Node.js.png";
+import Python from "../ICONS/Python.png";
+import Flask from "../ICONS/Flask.png";
 
 import Jest from "../ICONS/Jest.png";
 
@@ -24,8 +27,23 @@ const iconsProjectSB = [JS, ReactJs, PostgreSQL, Node];
 const iconsProjectRF = [JS, ReactJs];
 const iconsProjectLG = [JS, CSS3];
 const iconsProjectSAP = [MongoDB, NodeJS, Jest, Express];
+const iconsProjectDC = [ReactJs, Python, MongoDB, Flask];
 
 const finishedProjects = [
+  {
+    className: "DC",
+    title: "Digital Costing - React & Flask",
+    description: [
+      "React front-end with Vite",
+      "Flask API backend, MongoDB",
+      "Application for digital cost estimation with API integration and dynamic UI.",
+    ],
+    skills: iconsProjectDC,
+    abilities: "ReactJs Python MongoDB Flask",
+    liveLink: "https://xavierarce.github.io/Digital-Costing-App/",
+    codeLink: "https://github.com/xavierarce/Digital-Costing-App",
+    image: DigitalCostingImage,
+  },
   {
     className: "HS",
     title: "HogarSeguro - MERN stack",
